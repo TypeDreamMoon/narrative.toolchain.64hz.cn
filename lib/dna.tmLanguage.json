@@ -1,0 +1,106 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "DreamNarrative",
+  "scopeName": "source.dna",
+  "patterns": [
+    { "include": "#comment" },
+    { "include": "#declaration" },
+    { "include": "#speech" },
+    { "include": "#choice" },
+    { "include": "#stage-entry" },
+    { "include": "#property" },
+    { "include": "#block-word" },
+    { "include": "#command" },
+    { "include": "#expression" }
+  ],
+  "repository": {
+    "comment": {
+      "match": "//.*$",
+      "name": "comment.line.double-slash.dna"
+    },
+    "name": {
+      "match": "[A-Za-z_\\x{3400}-\\x{9FFF}\\x{F900}-\\x{FAFF}][A-Za-z0-9_\\x{3400}-\\x{9FFF}\\x{F900}-\\x{FAFF}]*",
+      "name": "entity.name.dna"
+    },
+    "declaration": {
+      "match": "^\\s*(file|character|fact|chapter|quest|dialogue|stage|channel|event|archive|test|explore)\\b(?:\\s+([^\\s:(]+))?",
+      "captures": {
+        "1": { "name": "keyword.declaration.dna" },
+        "2": { "name": "entity.name.type.dna" }
+      }
+    },
+    "speech": {
+      "begin": "^\\s*([^\\s:：/\\-#@][^:：(（]*?)(\\(([^)）]*)\\)|（([^)）]*)）)?\\s*([:：])",
+      "beginCaptures": {
+        "1": { "name": "entity.name.function.speaker.dna" },
+        "3": { "name": "entity.other.attribute-name.tag.dna" },
+        "4": { "name": "entity.other.attribute-name.tag.dna" },
+        "5": { "name": "punctuation.separator.speaker.dna" }
+      },
+      "end": "$",
+      "patterns": [
+        { "include": "#comment" },
+        { "include": "#modifiers" },
+        { "include": "#interpolation" },
+        { "match": "[^{/@#]+|.", "name": "string.unquoted.line.dna" }
+      ]
+    },
+    "choice": {
+      "begin": "^\\s*(-)\\s",
+      "beginCaptures": { "1": { "name": "punctuation.definition.list.choice.dna" } },
+      "end": "$",
+      "patterns": [
+        { "include": "#comment" },
+        { "include": "#modifiers" },
+        { "include": "#interpolation" },
+        { "match": "[^{/@#]+|.", "name": "string.unquoted.choice.dna" }
+      ]
+    },
+    "modifiers": {
+      "patterns": [
+        { "match": "@[^\\s]+", "name": "entity.name.tag.stage.dna" },
+        { "match": "#[0-9a-z]+", "name": "constant.other.id.dna" },
+        { "match": "\\b(if|once|for)\\b", "name": "keyword.control.modifier.dna" }
+      ]
+    },
+    "interpolation": {
+      "begin": "\\{",
+      "end": "\\}",
+      "beginCaptures": { "0": { "name": "punctuation.section.interpolation.begin.dna" } },
+      "endCaptures": { "0": { "name": "punctuation.section.interpolation.end.dna" } },
+      "patterns": [ { "include": "#expression" } ]
+    },
+    "stage-entry": {
+      "match": "^\\s*((?:\\d+(?:\\.\\d+)?(?:ms|s|m|h|%)?)(?:\\.\\.(?:\\d+(?:\\.\\d+)?(?:ms|s|m|h|%)?))?)\\s+([A-Za-z]+)",
+      "captures": {
+        "1": { "name": "constant.numeric.time.dna" },
+        "2": { "name": "support.function.verb.dna" }
+      }
+    },
+    "property": {
+      "match": "^\\s*([A-Za-z_\\x{3400}-\\x{9FFF}][A-Za-z0-9_\\x{3400}-\\x{9FFF}]*)\\s*([:：])(?!\\s*(bool|int|float|tag)\\b)",
+      "captures": {
+        "1": { "name": "variable.other.property.dna" },
+        "2": { "name": "punctuation.separator.key-value.dna" }
+      }
+    },
+    "block-word": {
+      "match": "^\\s*(implied|journal|choice|shots|restore|camera|light|mask|vfx|ui|anim|game|sequence|given|entry|objective|available|fail|subquest|reward|advance|on|duration|seed|talk|start|expect|wait|jump|save|absent|rolls|depth|always|eventually|softlock|newgame|select|channel|emit|accept|complete)\\b",
+      "name": "keyword.other.block.dna"
+    },
+    "command": {
+      "match": "^\\s*(set|accept|complete|fail|advance|play|emit|wait|->)\\b",
+      "name": "keyword.control.command.dna"
+    },
+    "expression": {
+      "patterns": [
+        { "include": "#comment" },
+        { "match": "\"[^\"]*\"|「[^」]*」|“[^”]*”", "name": "string.quoted.dna" },
+        { "match": "\\b(and|or|not|in|true|false|chapter|visited|random|chance|if|else|once|async|auto|optional|strict|hold|hard|persist|extern|session|profile|progress|gameplay|from|range|over|to|of|look|local|rot|fov|base|was|priority|cooldown|resume|track)\\b", "name": "keyword.operator.word.dna" },
+        { "match": "\\b(bool|int|float|tag)\\b", "name": "storage.type.dna" },
+        { "match": "\\b\\d+(?:\\.\\d+)?(?:ms|s|m|h|%|cm|x)?\\b|\\b\\d+(?:\\.\\d+)?%", "name": "constant.numeric.dna" },
+        { "match": "->|==|!=|<=|>=|\\+=|-=|[<>=+\\-*/%]", "name": "keyword.operator.dna" }
+      ]
+    }
+  }
+}
