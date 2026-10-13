@@ -33,7 +33,7 @@ export function SiteProvider({ children }: { children: ReactNode }) {
   const locale = getLocaleFromPathname(pathname);
 
   useEffect(() => {
-    document.documentElement.lang = 'zh-CN';
+    document.documentElement.lang = locale === 'zh' ? 'zh-CN' : 'en';
   }, [locale]);
 
   const handleLocaleChange = useCallback(

@@ -8,6 +8,7 @@
     "runtime",
     "tools",
     "diagnostics",
-    "changelog"
+    "changelog",
+    "plugin"
   ]
 }

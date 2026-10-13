@@ -1,0 +1,533 @@
+{
+  "version": 1,
+  "repository": "TypeDreamMoon/DreamNarrative",
+  "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+  "workingTree": false,
+  "pages": {
+    "changelog/index": {
+      "hash": "adf5d127b5618a72c7b3029194dbf2fd33c59007ffdc4268a24db6aee09a8c87",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/changelog/index.en.md",
+      "outputHash": "776267d47f1a42d4c7e0aaeaa7cdf230ab625392551aebd216a84af92e393da3",
+      "locale": "en",
+      "format": "md",
+      "title": "Changelog",
+      "sources": [
+        {
+          "path": "Docs/changelog/index.md",
+          "hash": "23e245bed71546e3fc3f5f3ef84f4744d0c8f1155e161b27a0f8776cb6a77c72"
+        }
+      ]
+    },
+    "diagnostics/dns1xxx": {
+      "hash": "f18b78a4bdd69b3d1aac2d132168fd7c7c15a38720e17eb99ef95f75a9a4b01c",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/diagnostics/dns1xxx.en.md",
+      "outputHash": "e47649de69fb1b81fa6f8a5c7ec101e21b59ef166a1cffe1ec785958e5d0b72f",
+      "locale": "en",
+      "format": "md",
+      "title": "DNS1xxx — Lexer",
+      "sources": [
+        {
+          "path": "Docs/diagnostics/dns1xxx.md",
+          "hash": "a5a8fbe1ad1da18b3c03225be420cbe4b84aa37215b1de524a9f1e16ea8eaff8"
+        }
+      ]
+    },
+    "diagnostics/dns2xxx": {
+      "hash": "8e73930976df37bd448275fc985e9e776479e1533cc233ea632bab2fddb74502",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/diagnostics/dns2xxx.en.md",
+      "outputHash": "31cca4dae0151373068b5d84102435be814da87639d24d803025ffeacc493696",
+      "locale": "en",
+      "format": "md",
+      "title": "DNS2xxx — Parser",
+      "sources": [
+        {
+          "path": "Docs/diagnostics/dns2xxx.md",
+          "hash": "2c96e1174d298c0afbbcc838d76968e6b1608b2ecd588ede9bf0adb425fbb8fc"
+        }
+      ]
+    },
+    "diagnostics/dns3xxx": {
+      "hash": "0ee051ba8a73aa4306dc20a7e53ca04dbf739a6fae14e5157a1103ba8ccd0e7e",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/diagnostics/dns3xxx.en.md",
+      "outputHash": "310c0a168f9813d2d23f296d0921368e67726ee1199b1325b8be5236f2d5431d",
+      "locale": "en",
+      "format": "md",
+      "title": "DNS3xxx — Names and references",
+      "sources": [
+        {
+          "path": "Docs/diagnostics/dns3xxx.md",
+          "hash": "c9a516d9d9f4c994ace52a370b915a76921768f537cfe75ff5ee24c3ff0029f8"
+        }
+      ]
+    },
+    "diagnostics/dns4xxx": {
+      "hash": "c5c1ffc8d398f2033ba73fe070dad664f97eacd6743ae21a311fb33ace684a19",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/diagnostics/dns4xxx.en.md",
+      "outputHash": "0b85ce618f88ab1cc7ba56f9e82f6a9617ef58abacb74a8c80ff33a3681e5dde",
+      "locale": "en",
+      "format": "md",
+      "title": "DNS4xxx — Expressions and types",
+      "sources": [
+        {
+          "path": "Docs/diagnostics/dns4xxx.md",
+          "hash": "085c034a568e0e653ca6dfb0ab72d459be9ad888afcf4df78e30a434d7974301"
+        }
+      ]
+    },
+    "diagnostics/dns5xxx": {
+      "hash": "0098ddc1f5b5a2478da4d4c9811419dbf9bc7adb93bb24301c1d2ce899f96e73",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/diagnostics/dns5xxx.en.md",
+      "outputHash": "a0b58ef7a9813e5a8178709b4b9e8449b753c3249387824f693a3627a7e42a54",
+      "locale": "en",
+      "format": "md",
+      "title": "DNS5xxx — Graph and reachability",
+      "sources": [
+        {
+          "path": "Docs/diagnostics/dns5xxx.md",
+          "hash": "e0aaecbbb9f054021381108db3276b6c80664a78ff32c1656ac9c2a7cb173afe"
+        }
+      ]
+    },
+    "diagnostics/dns7xxx": {
+      "hash": "ca1e2877d065a8635b02f4a4fc6c0cd4ff68df61ef8607317d2c55134518bea7",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/diagnostics/dns7xxx.en.md",
+      "outputHash": "0a0d5498b379a2f69415df0f077ee06d9f3e581599d99335b9ea5225938dcd93",
+      "locale": "en",
+      "format": "md",
+      "title": "DNS7xxx — Stage",
+      "sources": [
+        {
+          "path": "Docs/diagnostics/dns7xxx.md",
+          "hash": "e1003c422a863347252ee0fe07153362744804c6a2387743d6e75398df05822c"
+        }
+      ]
+    },
+    "diagnostics/dns8xxx": {
+      "hash": "10ffb521f044d1d8a64d4e3203d13e031493d0596a098a1e57da62559c0529a5",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/diagnostics/dns8xxx.en.md",
+      "outputHash": "67f5d7dab774ebe519ec97a22fa00f32eee840616bfb19cab14d464aa3865740",
+      "locale": "en",
+      "format": "md",
+      "title": "DNS8xxx — Generation and write-back",
+      "sources": [
+        {
+          "path": "Docs/diagnostics/dns8xxx.md",
+          "hash": "839a600937d11eda3595e00945ea057b4a87e6c45aa5f4b784325ec51df1a930"
+        }
+      ]
+    },
+    "diagnostics/dns9xxx": {
+      "hash": "a1ded26eddae1875e484e7c93bee931d2ae57752d2181fa4807c51b38ef4774b",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/diagnostics/dns9xxx.en.md",
+      "outputHash": "c87714c2bed11f7383991953cf1b71e91b329502e2485e1ed6af01ea44885171",
+      "locale": "en",
+      "format": "md",
+      "title": "DNS9xxx — Toolchain",
+      "sources": [
+        {
+          "path": "Docs/diagnostics/dns9xxx.md",
+          "hash": "52502407949fe7ded62e8b2068c07a5e11233b973babf6d889afa507413af910"
+        }
+      ]
+    },
+    "diagnostics/index": {
+      "hash": "169cd5961e07cbf432f95490ceac45614241d0a2399fbc6104b061fa206d62f2",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/diagnostics/index.en.md",
+      "outputHash": "3f1eead760f7f0af57e16dc0835cb6cff99e2302427475d8d14e9a94d01456f0",
+      "locale": "en",
+      "format": "md",
+      "title": "Diagnostics",
+      "sources": [
+        {
+          "path": "Docs/diagnostics/index.md",
+          "hash": "13aa930fe945ddb8b808ba33334e30501cdf0ee64bb3847ba703d56fdfc989cb"
+        }
+      ]
+    },
+    "index": {
+      "hash": "e2e90321edf3c29fb8aef38222f14ebdcb0b8b408458b161cdf488e737b1d5a0",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/index.en.md",
+      "outputHash": "e988e26f321917490ef85eb6110747a2f330dcdbb61675227416bc55b9aa3b41",
+      "locale": "en",
+      "format": "md",
+      "title": "Overview",
+      "sources": [
+        {
+          "path": "Docs/index.md",
+          "hash": "a81b51281715f079c9f0cfc37435eaac8f155b51a5f2c284ddc751211510363f"
+        }
+      ]
+    },
+    "language/archives": {
+      "hash": "e1e5c94a2b3b6f4cee478d69f1bf53cd7ab563e9c33589525ddaea672dd87f89",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/language/archives.en.md",
+      "outputHash": "eb0ca03bc97f9aa505870e74a5bf517e2a0945902e2ac6df382468cdcd2de01a",
+      "locale": "en",
+      "format": "md",
+      "title": "Archives",
+      "sources": [
+        {
+          "path": "Docs/language/archives.md",
+          "hash": "e20e17ec3df1f582c9fa1a7d9944f1b7e772b3bc97eb4dc299aa0d81d03754c6"
+        }
+      ]
+    },
+    "language/channels": {
+      "hash": "d9d5c70bf7a6329b8329536fb1231371b5d514084a8887c008102c6bd6692353",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/language/channels.en.md",
+      "outputHash": "82bd960a3191da6514902011f72d26a6a1bc5f762ee99394e889bd64da3b5810",
+      "locale": "en",
+      "format": "md",
+      "title": "Channels and events",
+      "sources": [
+        {
+          "path": "Docs/language/channels.md",
+          "hash": "bde072b9ca6215dc6e1af349187e7236144b43c0da9fe515c2c1c4be9b197fc5"
+        }
+      ]
+    },
+    "language/chapters": {
+      "hash": "4690ccf4462fd0e3f7a4b499d4490d2b20fe63e6e4c9c2568853282897221375",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/language/chapters.en.md",
+      "outputHash": "08fd4660d00e48a126981646105715cad476c9fb8a804b32d78f0f79000b23ca",
+      "locale": "en",
+      "format": "md",
+      "title": "Chapters and playthroughs",
+      "sources": [
+        {
+          "path": "Docs/language/chapters.md",
+          "hash": "c1eb160aa8f13ffdda11c5b5d582e059380ed126b10c27f75e10152fcc8a34e5"
+        }
+      ]
+    },
+    "language/dialogue": {
+      "hash": "b99e7096cac89bb05205e195b6d6dc825dc28c6bfdae84a17f64e4416bf87e9f",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/language/dialogue.en.md",
+      "outputHash": "354bd85d2c2c2197ff5a95b25357a07af145587899142228cc414dba53111b8f",
+      "locale": "en",
+      "format": "md",
+      "title": "Dialogue",
+      "sources": [
+        {
+          "path": "Docs/language/dialogue.md",
+          "hash": "cc661c5b25cd557beccf4616d88f6417a66fd7235c5b6061ffb2aef81992614a"
+        }
+      ]
+    },
+    "language/expressions": {
+      "hash": "4826a7e23f97680467cbb6f8083d1124751c4a18c2d0f18e003168a2f2c241fe",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/language/expressions.en.md",
+      "outputHash": "690551974b5eabe56d6806aa3211baafa41e3164e8576429443da62df57f22e5",
+      "locale": "en",
+      "format": "md",
+      "title": "Expressions",
+      "sources": [
+        {
+          "path": "Docs/language/expressions.md",
+          "hash": "981779238e6b55582742fab9b5b8be69877190292bde54062318f8b3a56dff9e"
+        }
+      ]
+    },
+    "language/facts": {
+      "hash": "cb5eb3a60d545c85cc2c44b4c71410ab33d6fc00a96b07e32fe3f54cc97c8ae5",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/language/facts.en.md",
+      "outputHash": "be93b7fbdb3f43ae39236fce3c340acffacde55118127e1afba9a10f4a1f9404",
+      "locale": "en",
+      "format": "md",
+      "title": "Characters and facts",
+      "sources": [
+        {
+          "path": "Docs/language/facts.md",
+          "hash": "07c4ce455b5f44fab7be9805d5aa1fcb01349e3a724c61bdd9b40c22f01dd993"
+        }
+      ]
+    },
+    "language/index": {
+      "hash": "cc28a354466ca1e2ddd33d8ce74ecb4f4a3a999181c4261c63665f1facd0b5ba",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/language/index.en.md",
+      "outputHash": "a2b5a089752902eb41ebdb5d63b8cdd9f923514a906df6924b2922656945b193",
+      "locale": "en",
+      "format": "md",
+      "title": "Language",
+      "sources": [
+        {
+          "path": "Docs/language/index.md",
+          "hash": "c43fc7fceba88cdd9dfb60e47f84c7ec72811a9508c5d63244064958962fb913"
+        }
+      ]
+    },
+    "language/quests": {
+      "hash": "a0cc8350c0876b5de9c00bb44c31576963eca287a64bc70635c8a2e61468f659",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/language/quests.en.md",
+      "outputHash": "ad5898aaed99104a85afd6474df9526304acd36aa9443d21ed7ebb29acf6b2bd",
+      "locale": "en",
+      "format": "md",
+      "title": "Quests",
+      "sources": [
+        {
+          "path": "Docs/language/quests.md",
+          "hash": "8aa454ef4da4d202d9af1794c94123999d9fb984fcb5f3cba671b37a9094e08b"
+        }
+      ]
+    },
+    "language/tests": {
+      "hash": "404e436a085073fac6eedd25feda271dfb9f399a9e03e541dfaace249085c112",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/language/tests.en.md",
+      "outputHash": "c8afe2e4c24aa5c28f614f959d0eb849fd9559998e57ad3e7343746c3829a0ff",
+      "locale": "en",
+      "format": "md",
+      "title": "Tests and exploration",
+      "sources": [
+        {
+          "path": "Docs/language/tests.md",
+          "hash": "c15c3eef3674f80ca4bd4476bfb50177337c6abc4b2ed1b56a103d720513d2e9"
+        }
+      ]
+    },
+    "runtime/gas": {
+      "hash": "bf68110594092afe053a512748a6f8022aebcdd06d7518eb747af490a77fa8ac",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/runtime/gas.en.md",
+      "outputHash": "abf8a46d676a5c2782df0ad3eebc141f561e7a3a9e4a574966dd83cb4510321d",
+      "locale": "en",
+      "format": "md",
+      "title": "Gameplay Ability System",
+      "sources": [
+        {
+          "path": "Docs/runtime/gas.md",
+          "hash": "306adfa9389347249069bd7e98a2e722b6fad49d9c95fd1ea0da1b933d18459d"
+        }
+      ]
+    },
+    "runtime/index": {
+      "hash": "e38ca258a3f8a192151c3cb78fe80d7359e1ebdd6db75fa908abe2d3a5528966",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/runtime/index.en.md",
+      "outputHash": "49d943b8c84ecd07babba54a9ee9a0b8fb9e3022789aecba5ccd09847e984da8",
+      "locale": "en",
+      "format": "md",
+      "title": "Game integration",
+      "sources": [
+        {
+          "path": "Docs/runtime/index.md",
+          "hash": "e385fb333c072fca8347c4d5ecbf9f675e6a1436dd6d34a1a39784d987e970d2"
+        }
+      ]
+    },
+    "stage/editing": {
+      "hash": "ddce6564908a5f76df8766dc7dd1604fd5f9503713c9de362a5d6593e298faaa",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/stage/editing.en.md",
+      "outputHash": "168f863ab5295e963a9df08a8cf6f40c48d1118ffbefbd67acccf206e8e91e53",
+      "locale": "en",
+      "format": "md",
+      "title": "Timeline, generation and import",
+      "sources": [
+        {
+          "path": "Docs/stage/editing.md",
+          "hash": "d487483698b09597613c5b0be66368079f6e610d27c546944d22f2e52bf6b4a7"
+        }
+      ]
+    },
+    "stage/index": {
+      "hash": "b6e22445fdd4a0366e3d550cbbc78d77d695b2126b251c727ac5c4fdb3a5e949",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/stage/index.en.md",
+      "outputHash": "de6279a5765e0229be6e57aba5dd287a7353df99c95c244fe756cb0698718e16",
+      "locale": "en",
+      "format": "md",
+      "title": "Stage language",
+      "sources": [
+        {
+          "path": "Docs/stage/index.md",
+          "hash": "4797dd6ebdd14689cbf9cf108007a638825144dc6c8566db129acbacd90d5820"
+        }
+      ]
+    },
+    "stage/runtime": {
+      "hash": "b8a5cd3ec628e838e56de138d93530a3dd897b863d807bc1c7f3644f1f270664",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/stage/runtime.en.md",
+      "outputHash": "ee96f49bf724db632eea5593269230ddcef49f01fdc1a06e0ad867d9ee288561",
+      "locale": "en",
+      "format": "md",
+      "title": "Director and restoration",
+      "sources": [
+        {
+          "path": "Docs/stage/runtime.md",
+          "hash": "448a523942e9b1524b559c53a1ac4c9b9297c1f03e4ddaf5a91dca57de7b59c5"
+        }
+      ]
+    },
+    "start/first-story": {
+      "hash": "fb8b6e6a78cedba7366b860322f239ae15e73857412241b365184c831b0a1d70",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/start/first-story.en.md",
+      "outputHash": "498b96be72f3c4f81b475cec2ec93bac9279cd19b7ef28900e24e2213bd63a89",
+      "locale": "en",
+      "format": "md",
+      "title": "Write your first story",
+      "sources": [
+        {
+          "path": "Docs/getting-started/first-story.md",
+          "hash": "8df42814e82e71087a6ed63054dbdf5860ebea534ed75b2ef1e4d10dd185a681"
+        }
+      ]
+    },
+    "start/install": {
+      "hash": "64e5aac9c02342b5748752ce06c7af4d34aa5fb045afa7fd92a78f4761e051d6",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/start/install.en.md",
+      "outputHash": "0f9f0ae923c510bf9c8950a9e96c6f7caa16bc15ef5cc80ee2f12bd00dca269b",
+      "locale": "en",
+      "format": "md",
+      "title": "Installation",
+      "sources": [
+        {
+          "path": "Docs/getting-started/install.md",
+          "hash": "725bd74e53ffbc23d29c78e284a2186fd015380eaabd911d60d7e83a11e352a0"
+        }
+      ]
+    },
+    "tools/dnc": {
+      "hash": "ad8abffcddbf5960be5698412585d15d7731decdd51fec0140432c3a3aa4c706",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/tools/dnc.en.md",
+      "outputHash": "96750e9d4ec0b052aa316ef8d4eb3848573f294f462e032ae0528a49e21d40e0",
+      "locale": "en",
+      "format": "md",
+      "title": "dnc and testing",
+      "sources": [
+        {
+          "path": "Docs/tools/dnc.md",
+          "hash": "86447944e55a5fa67457c1ab41b1ecce127162fcc1983fa030c7f71fe9a9ebfd"
+        }
+      ]
+    },
+    "tools/editor": {
+      "hash": "13a3c3c24fcd85438264f8b1d7e6b7204126c4f2dba99cc7a632c25968826034",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/tools/editor.en.md",
+      "outputHash": "33ff410db2b00df33fdbcca5563844428c264ec463302281aeb76cd67853f88e",
+      "locale": "en",
+      "format": "md",
+      "title": "Editor",
+      "sources": [
+        {
+          "path": "Docs/tools/editor.md",
+          "hash": "72e90ed4406d7d74feb56f4ec7a522577b14a887d5da696de7ce2c26116be38b"
+        }
+      ]
+    },
+    "tools/localization": {
+      "hash": "f8eab038857a2f911d4c038a7856b0486b02ccd4ff8aaf8384658805e2c556cf",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/tools/localization.en.md",
+      "outputHash": "8bdd949966bedcecae6e45af9dd68224ffb4229e9d83df5549dc30b059feb209",
+      "locale": "en",
+      "format": "md",
+      "title": "Localization",
+      "sources": [
+        {
+          "path": "Docs/tools/localization.md",
+          "hash": "620f0f8de7dd38b230c4ec9698863c7d3c7a4e5934f27f061d0d5e19127554c4"
+        }
+      ]
+    },
+    "tools/migration": {
+      "hash": "2fb45d5496c46dc27a6c9c0c256dc4369b43a63bcef6d6b9e28d366debfdbeb2",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/tools/migration.en.md",
+      "outputHash": "6bd010ba83a2c39f1ca801b7015a43ca335866babcbaa384718bcfdd0a4a53d7",
+      "locale": "en",
+      "format": "md",
+      "title": "Migrate from DreamGameplayTask",
+      "sources": [
+        {
+          "path": "Docs/tools/migration.md",
+          "hash": "df8a0a6d34f6f2124352168978ad90181f4ca0511ee180c0ecdf86fc880904cb"
+        }
+      ]
+    },
+    "tools/vscode": {
+      "hash": "6809ee8b6ff78f689595e5d760fb1db00b01889c323a1a3871e2d40fcfe2119c",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/tools/vscode.en.md",
+      "outputHash": "0410074a0375d8978c5d00a345ff5cf949cd00d9ab56dab6b88c0472a2bc5274",
+      "locale": "en",
+      "format": "md",
+      "title": "VS Code",
+      "sources": [
+        {
+          "path": "Docs/tools/vscode.md",
+          "hash": "fe4b75e7a10017feea90bcd9fef59f24d32d12363ff59e93aba981eb949e8a9c"
+        }
+      ]
+    },
+    "plugin/architecture": {
+      "hash": "752d125be5fa7f60ef8047fa637f485cb2876a863eb611d1653be19440420f7e",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/plugin/architecture.en.md",
+      "outputHash": "5cb8e2b3f4b8f6c306fab5e16a9ed666ab078cb80a64d1871b4b76e002fc4fa3",
+      "locale": "en",
+      "format": "md",
+      "title": "Architecture and decision record",
+      "sources": [
+        {
+          "path": "Docs/contributing/architecture.md",
+          "hash": "ccaec195978cd622556d19555d0b78899821f4415c764bc679620f563b02d7c1"
+        }
+      ]
+    },
+    "plugin/diagnostics": {
+      "hash": "35bde4fb9204213d83da35b7dcea981e183474125b5c4729c1be4a4f45944df0",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/plugin/diagnostics.en.md",
+      "outputHash": "6f48f6fd062382072491121557debf6e98f8530c506930b7f2416ffa1b9f87f8",
+      "locale": "en",
+      "format": "md",
+      "title": "Diagnostic reference",
+      "sources": [
+        {
+          "path": "Docs/diagnostics/reference.md",
+          "hash": "49266060d3008574d509061181088f55d9f5efd79006ded00ddd0ff54ab23d4f"
+        }
+      ]
+    },
+    "plugin/guide": {
+      "hash": "5f57a06fee3076b7d6c87b43bc01577e6e0f14c7036983eef5e0c406f50fac52",
+      "revision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "output": "content/docs/plugin/guide.en.md",
+      "outputHash": "9871f1383f38e9e3ebc4c9c73ac584f64808f01ddfb396eea271e71f0cb5c2d1",
+      "locale": "en",
+      "format": "md",
+      "title": "DreamNarrative guide",
+      "sources": [
+        {
+          "path": "Docs/getting-started/guide.md",
+          "hash": "240cf69d6275e9cdaa113441db10bed8977a18741995bc65772dae4069246145"
+        }
+      ]
+    }
+  }
+}

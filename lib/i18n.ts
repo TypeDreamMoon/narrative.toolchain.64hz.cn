@@ -1,7 +1,7 @@
 import { defineI18n } from 'fumadocs-core/i18n';
 import { defineI18nUI } from 'fumadocs-ui/i18n';
 
-export const locales = ['zh'] as const;
+export const locales = ['zh', 'en'] as const;
 export type Locale = (typeof locales)[number];
 
 export const defaultLocale: Locale = 'zh';
@@ -27,10 +27,13 @@ export const i18nUI = defineI18nUI(i18n, {
     chooseTheme: '主题',
     editOnGithub: '在 GitHub 上编辑',
   },
+  en: {
+    displayName: 'English',
+  },
 });
 
 export function isLocale(value: string | undefined): value is Locale {
-  return value === 'zh';
+  return value === 'zh' || value === 'en';
 }
 
 export function localizedPath(locale: Locale, path: string): string {

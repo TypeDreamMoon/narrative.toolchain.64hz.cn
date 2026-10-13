@@ -1,0 +1,14 @@
+{
+  "title": "Diagnostics",
+  "pages": [
+    "index",
+    "dns1xxx",
+    "dns2xxx",
+    "dns3xxx",
+    "dns4xxx",
+    "dns5xxx",
+    "dns7xxx",
+    "dns8xxx",
+    "dns9xxx"
+  ]
+}
