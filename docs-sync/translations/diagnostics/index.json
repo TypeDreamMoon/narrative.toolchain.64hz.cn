@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "status": "unreviewed",
+  "sourceHash": null,
+  "sourceRevision": "52b7e0a04235a3c492f196f3b4427fa896381b7a",
+  "sources": [
+    {
+      "path": "Docs/diagnostics/index.md",
+      "sourceHash": null,
+      "sourceRevision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "translationHash": "89ea24f37b2f264a815f64de94ac3491ab8e2c716bde2a09cddce39703206888"
+    }
+  ],
+  "translationFile": "content/docs/diagnostics/index.md",
+  "translationHash": "9425553a37058f86c492d8ea7784cfcd8b9afd46ef0366d63881064193948c24"
+}

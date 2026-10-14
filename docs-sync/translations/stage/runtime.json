@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "status": "unreviewed",
+  "sourceHash": null,
+  "sourceRevision": "52b7e0a04235a3c492f196f3b4427fa896381b7a",
+  "sources": [
+    {
+      "path": "Docs/stage/runtime.md",
+      "sourceHash": null,
+      "sourceRevision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "translationHash": "e80831433654002c51ae469ccd3cc21a042e89b251437ca67853f35a445bfee6"
+    }
+  ],
+  "translationFile": "content/docs/stage/runtime.md",
+  "translationHash": "893ddaeec73e45f83e05a9d7be8781f3a5a670adc28aed493b73d285f6059294"
+}

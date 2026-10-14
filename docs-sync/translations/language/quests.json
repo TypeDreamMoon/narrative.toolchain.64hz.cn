@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "status": "unreviewed",
+  "sourceHash": null,
+  "sourceRevision": "52b7e0a04235a3c492f196f3b4427fa896381b7a",
+  "sources": [
+    {
+      "path": "Docs/language/quests.md",
+      "sourceHash": null,
+      "sourceRevision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "translationHash": "d28bad54d2f95e84f9a55b594c23b9eaffe4f1e22fc1d2cb89bc86a983d71ba9"
+    }
+  ],
+  "translationFile": "content/docs/language/quests.md",
+  "translationHash": "8456c391643078276111b1a7c50fc0768f3374421e88a0966c3cee77ff66c76c"
+}

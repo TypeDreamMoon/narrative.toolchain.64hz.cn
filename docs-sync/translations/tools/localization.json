@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "status": "unreviewed",
+  "sourceHash": null,
+  "sourceRevision": "52b7e0a04235a3c492f196f3b4427fa896381b7a",
+  "sources": [
+    {
+      "path": "Docs/tools/localization.md",
+      "sourceHash": null,
+      "sourceRevision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "translationHash": "62b91bee753dd02a159c40a48adb8bae54187afccd717e5640b671dfea6be3d9"
+    }
+  ],
+  "translationFile": "content/docs/tools/localization.md",
+  "translationHash": "0f2518ba9cc598208f1258ddcd244f35b5f9289792cd3f65eb843300b9b6fd2d"
+}

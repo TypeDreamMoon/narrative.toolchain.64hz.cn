@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "status": "unreviewed",
+  "sourceHash": null,
+  "sourceRevision": "52b7e0a04235a3c492f196f3b4427fa896381b7a",
+  "sources": [
+    {
+      "path": "Docs/runtime/gas.md",
+      "sourceHash": null,
+      "sourceRevision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "translationHash": "4afae91794352341ad3d3c6948ce0d94b26add5f0cc45370363a063d15e8733c"
+    }
+  ],
+  "translationFile": "content/docs/runtime/gas.md",
+  "translationHash": "937473637781f917fe80e54e6979209cfda698118a32297aa004177e8061bb2d"
+}

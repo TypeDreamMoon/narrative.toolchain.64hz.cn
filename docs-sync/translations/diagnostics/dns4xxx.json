@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "status": "unreviewed",
+  "sourceHash": null,
+  "sourceRevision": "52b7e0a04235a3c492f196f3b4427fa896381b7a",
+  "sources": [
+    {
+      "path": "Docs/diagnostics/dns4xxx.md",
+      "sourceHash": null,
+      "sourceRevision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "translationHash": "5b2a5b758110e0cb958f720ca0767e39677d151497416b9bbd8f7a3317ced565"
+    }
+  ],
+  "translationFile": "content/docs/diagnostics/dns4xxx.md",
+  "translationHash": "7d68d7f452d01101251c6b2045ce5be8784e8b13e4e49464d45104cd64392ea1"
+}

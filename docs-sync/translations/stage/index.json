@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "status": "unreviewed",
+  "sourceHash": null,
+  "sourceRevision": "52b7e0a04235a3c492f196f3b4427fa896381b7a",
+  "sources": [
+    {
+      "path": "Docs/stage/index.md",
+      "sourceHash": null,
+      "sourceRevision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "translationHash": "2661538908b44563b6c0bfaee5faac3892b0f1856240d8c3ef82df879e2b8043"
+    }
+  ],
+  "translationFile": "content/docs/stage/index.md",
+  "translationHash": "8f718f51359c837c81df0413b989d1535d9458c3bdd3d348fbd19676630be79e"
+}
