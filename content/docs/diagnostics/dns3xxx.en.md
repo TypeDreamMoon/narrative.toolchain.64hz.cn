@@ -3,8 +3,6 @@ title: "DNS3xxx — Names and references"
 description: "Undeclared names, missing targets and duplicate IDs."
 ---
 
-# DNS3xxx — Names and references
-
 ## DNS3001
 
 A reference names an undeclared fact.

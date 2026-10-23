@@ -3,8 +3,6 @@ title: "Archives"
 description: "Entries that remain available once unlocked."
 ---
 
-# Archives
-
 ```dna
 archive 守夜日志 profile
   title: 守夜日志

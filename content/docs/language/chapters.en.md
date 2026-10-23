@@ -3,8 +3,6 @@ title: "Chapters and playthroughs"
 description: "Chapter progression, checkpoints, chapter selection and new playthroughs."
 ---
 
-# Chapters and playthroughs
-
 ```dna
 chapter 上岛
 chapter 风暴 after 上岛

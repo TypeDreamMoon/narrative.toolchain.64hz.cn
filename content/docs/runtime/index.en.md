@@ -3,8 +3,6 @@ title: "Game integration"
 description: "Subsystems, runners, snapshots, voice and console commands."
 ---
 
-# Game integration
-
 ```cpp
 UDreamNarrativeStory* Story = GetGameInstance()->GetSubsystem<UDreamNarrativeStory>();
 Story->LoadAllScripts();                       // All scripts under Asset Directory

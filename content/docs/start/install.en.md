@@ -3,8 +3,6 @@ title: "Installation"
 description: "Plugin requirements, project settings and the first build."
 ---
 
-# Installation
-
 1. Put the plugin in your project's `Plugins/DreamNarrative` directory (UE 5.8; the stock engine is sufficient).
    Required engine plugins are EnhancedInput, Niagara and GameplayTags. GameplayAbilities is optional;
    only `DreamNarrativeGAS` uses it.

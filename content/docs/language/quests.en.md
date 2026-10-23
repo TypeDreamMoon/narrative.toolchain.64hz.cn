@@ -3,8 +3,6 @@ title: "Quests"
 description: "Ledger observers with objectives, journals, rewards, subquests and timeouts."
 ---
 
-# Quests
-
 ```dna
 quest 修灯
   title: 修好灯塔

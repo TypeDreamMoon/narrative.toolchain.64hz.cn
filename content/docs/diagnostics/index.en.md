@@ -3,8 +3,6 @@ title: "Diagnostics"
 description: "Diagnostic ranges and links to every code group."
 ---
 
-# Diagnostics
-
 | Range | Owner | Description |
 | --- | --- | --- |
 | 1000–1999 | Lexer | Invalid characters, unterminated strings, inconsistent indentation |

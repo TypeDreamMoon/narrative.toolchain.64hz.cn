@@ -1,6 +1,6 @@
 ---
 title: "Timeline, generation and import"
-description: "Timeline editing, dialogue staging and Level Sequence import."
+description: "Stage timeline editing, dialogue staging generation and Level Sequence import."
 ---
 
 **Narrative Stage Timeline**, in the Tools menu, shows one stage's tracks. Drag items, range ends or

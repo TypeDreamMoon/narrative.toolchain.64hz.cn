@@ -3,8 +3,6 @@ title: "DNS8xxx · 生成与写回"
 description: "资产生成失败、写回冲突"
 ---
 
-由 `scripts/gen-diagnostics.mjs` 从插件的 `Docs/Diagnostics.md` 生成。
-
 ## DNS8001 [#dns8001]
 
 资产无法创建或保存。

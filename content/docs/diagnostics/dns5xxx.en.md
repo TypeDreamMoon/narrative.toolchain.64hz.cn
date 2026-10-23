@@ -3,8 +3,6 @@ title: "DNS5xxx — Graph and reachability"
 description: "Unreachable content, softlocks and exploration assertions."
 ---
 
-# DNS5xxx — Graph and reachability
-
 ## DNS5008
 
 A choice group has no fallback choice.

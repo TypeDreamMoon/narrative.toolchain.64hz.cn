@@ -3,8 +3,6 @@ title: "Diagnostic reference"
 description: "Code-group navigation and localization and asset diagnostics."
 ---
 
-# Diagnostic reference
-
 Every diagnostic has the prefix `DNS` and four digits. Once published, a code must keep its meaning.
 If the meaning changes, allocate a new code and deprecate the old one.
 Every code below includes a summary and an explanation of its trigger, rationale and remedy.

@@ -3,8 +3,6 @@ title: "Dialogue"
 description: "Speakers, choices, conditions and commands."
 ---
 
-# Dialogue
-
 ```dna
 dialogue 老周_初见 for 老周 if not 见过老周
   老周: 你就是新来的守夜人?

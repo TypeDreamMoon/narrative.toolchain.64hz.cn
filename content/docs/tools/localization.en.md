@@ -3,8 +3,6 @@ title: "Localization"
 description: "Stable IDs, namespaces, translation export and import."
 ---
 
-# Localization
-
 Dialogue, choices, titles, journals, archives and stage text are localizable. The namespace is
 `DNA/<FileName>` and the key is a line ID or a stable name such as `stage.<Stage>.text<n>`.
 Script assets live under Asset Directory; gather them through the engine's Localization Dashboard.

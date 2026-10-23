@@ -3,8 +3,6 @@ title: "DNS2xxx — Parser"
 description: "Unexpected tokens, invalid modifiers and block structure."
 ---
 
-# DNS2xxx — Parser
-
 ## DNS2001
 
 A line is indented under a line that does not open a block.

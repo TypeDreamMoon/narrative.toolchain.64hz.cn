@@ -22,6 +22,9 @@ import urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]
 NOTES = "<!-- docs-sync:notes -->"
+# Kept in step with Docs/translation-status.py in the plugin: repository navigation
+# and compatibility pages are not translation units of their own.
+NOT_TRANSLATED = ("README.md", "DuiLanguage.md", "FontsAndPackaging.md", "Migration.md")
 
 
 def read(path):
@@ -106,6 +109,16 @@ def field(front, name, default=""):
 
 def document(title, description, body):
     return f"---\ntitle: {json.dumps(title, ensure_ascii=False)}\ndescription: {json.dumps(description, ensure_ascii=False)}\n---\n\n{body.rstrip()}\n"
+
+
+def strip_leading_title(body):
+    """Drop a leading level-1 heading: the page template already renders the title.
+
+    The plugin keeps `# Title` at the top of a topic so the file reads well on
+    GitHub; the site renders `DocsTitle` from the same title, so keeping both
+    would emit two <h1> elements on every English page.
+    """
+    return re.sub(r"\A# [^\n]*\n+(?=\S)", "", body, count=1)
 
 
 def headings(text):
@@ -279,8 +292,8 @@ def plugin_statuses(plugin):
         name = path.relative_to(plugin).as_posix()
         if name.startswith(('Docs/zh-CN/', 'Docs/Website/')):
             continue
-        if name in ('Docs/DuiLanguage.md', 'Docs/FontsAndPackaging.md', 'Docs/Migration.md'):
-            continue  # Navigation compatibility pages, not independent manuals.
+        if name.removeprefix('Docs/') in NOT_TRANSLATED:
+            continue  # Repository navigation and compatibility pages, not independent manuals.
         translated, record_path = translation_files(plugin, name)
         record = load(record_path, {})
         fingerprint = digest(read(source_file(plugin, name)))
@@ -408,9 +421,9 @@ def sync(root, plugin, revision=None, check=False, adopt_existing=False):
             fingerprints.append({**entry, "hash": digest(selected)})
             chunks.append(rewrite_links(selected, entry["path"], cfg["repository"], revision,
                                         source_routes, bool(entry.get("heading")), anchors))
-        body = "\n\n".join(chunks)
-        title = page.get("title") or field(source_front, "title") or next((h[1] for h in headings(body)), page_id)
-        description = page.get("description", field(source_front, "description", title))
+        body = strip_leading_title("\n\n".join(chunks))
+        title = field(source_front, "title") or page.get("title") or next((h[1] for h in headings(body)), page_id)
+        description = field(source_front, "description") or page.get("description") or title
         semantic_body = body.replace(f"/blob/{revision}/", "/blob/SOURCE/").replace(
             f"raw.githubusercontent.com/{cfg['repository']}/{revision}/", f"raw.githubusercontent.com/{cfg['repository']}/SOURCE/")
         source_hash = digest(json_text({"sources": fingerprints, "title": title, "description": description,
@@ -447,7 +460,9 @@ def sync(root, plugin, revision=None, check=False, adopt_existing=False):
     if removed:
         raise ValueError("Pages removed from mapping; migrate routes/translations explicitly: " + ", ".join(sorted(removed)))
     if different_history and {key: page["hash"] for key, page in pages.items()} != {key: page["hash"] for key, page in old["pages"].items()}:
-        raise ValueError("Refusing an older or unrelated plugin revision with different documentation; fetch full plugin history")
+        raise ValueError("The plugin revision is not comparable to the recorded one (history was rewritten) and its documentation changed; "
+                         "rerun Sync plugin documentation with the plugin's merge commit on the publishing branch, "
+                         "or restore the reviewed sources")
     snapshot = plugin_translation_snapshot(plugin)
     if different_history and old.get('translationSnapshotHash', snapshot) != snapshot:
         raise ValueError('Refusing unrelated history with different Chinese documentation')
@@ -535,9 +550,11 @@ def plan_chinese(root, plugin, cfg, definitions, pages, old, planned, removals, 
         page = pages[page_id]
         text = planned[destination]
         page['translation'].update(outputHash=digest(text), bodyHash=digest(split_notes(text)[0].rstrip()))
+        # Record the revision this page's source is pinned to, not the sync revision:
+        # otherwise an unrelated English edit rewrites all translation records.
         planned[record_path] = json_text({'version': 2, 'status': page['translation']['status'],
             'sourceHash': page['hash'] if page['translation']['status'] == 'current' else None,
-            'sourceRevision': revision, 'sources': source_records,
+            'sourceRevision': page['revision'], 'sources': source_records,
             'translationFile': page['translation']['output'], 'translationHash': digest(text)})
 
 

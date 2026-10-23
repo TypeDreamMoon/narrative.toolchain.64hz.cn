@@ -45,6 +45,29 @@ class DocsSyncTests(unittest.TestCase):
         docs.translate(self.root,self.settings,request_fn=request_fn or self.fake_ai,plugin=self.plugin)
         return docs.sync(self.root,self.plugin,adopt_existing=True)
 
+    def test_page_title_is_not_repeated_as_a_body_heading(self):
+        self.sync()
+        body = docs.split_frontmatter(docs.read(self.root/'content/docs/guide.en.md'))[1].lstrip()
+        self.assertFalse(body.startswith('# '))
+        self.assertIn('English paragraph.', body)
+
+    def test_plugin_frontmatter_title_wins_over_mapping_title(self):
+        self.cfg['pages'][0]['title'] = 'Mapping title'
+        docs.write(self.root/'docs-sync/config.json', docs.json_text(self.cfg))
+        docs.write(self.plugin/'Docs/guide.md',
+                   '---\ntitle: Plugin title\ndescription: Plugin summary.\n---\n\n# Guide\n\nEnglish paragraph.\n')
+        self.sync()
+        front, _ = docs.split_frontmatter(docs.read(self.root/'content/docs/guide.en.md'))
+        self.assertEqual(docs.field(front,'title'),'Plugin title')
+        self.assertEqual(docs.field(front,'description'),'Plugin summary.')
+
+    def test_mapping_title_remains_the_fallback_without_frontmatter(self):
+        self.cfg['pages'][0]['title'] = 'Mapping title'
+        docs.write(self.root/'docs-sync/config.json', docs.json_text(self.cfg))
+        self.sync()
+        front, _ = docs.split_frontmatter(docs.read(self.root/'content/docs/guide.en.md'))
+        self.assertEqual(docs.field(front,'title'),'Mapping title')
+
     def test_sync_without_plugin_translation_keeps_legacy_chinese(self):
         self.sync()
         self.assertEqual(docs.read(self.root/'content/docs/guide.mdx'),'中文原有内容\n')
@@ -150,7 +173,7 @@ class DocsSyncTests(unittest.TestCase):
         docs.write(self.plugin/'Docs/guide.md','# Guide\n\nOlder or unrelated text.\n')
         with patch.object(docs.subprocess,'run') as run:
             run.return_value.returncode = 1
-            with self.assertRaisesRegex(ValueError,'different documentation'):
+            with self.assertRaisesRegex(ValueError,'documentation changed'):
                 self.sync()
         self.assertIn('English paragraph.',docs.read(self.root/'content/docs/guide.en.md'))
 

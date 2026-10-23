@@ -2,15 +2,15 @@
   "version": 2,
   "status": "unreviewed",
   "sourceHash": null,
-  "sourceRevision": "52b7e0a04235a3c492f196f3b4427fa896381b7a",
+  "sourceRevision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
   "sources": [
     {
       "path": "Docs/diagnostics/dns5xxx.md",
       "sourceHash": null,
       "sourceRevision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
-      "translationHash": "cefbcf8e309f25b3d1e4b0d8343fd6ce8c8a6f07fd907220d07b1023a2964de0"
+      "translationHash": "047c43ded8707d618ccf55951ef710954b881cd9dfcaee1a104130577addb2a3"
     }
   ],
   "translationFile": "content/docs/diagnostics/dns5xxx.md",
-  "translationHash": "25c9272d8702381c4ed936d9b04905b800a89515d00ebb69cf4051b50ad6ae94"
+  "translationHash": "7931879066241ca8ada57f2ee844047bba48743974b5b6a4f2b49e85b80385a4"
 }

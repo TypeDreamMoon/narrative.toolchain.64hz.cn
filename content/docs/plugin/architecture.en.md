@@ -3,8 +3,6 @@ title: "Architecture and decision record"
 description: "Architectural decisions, reasoning and implementation history."
 ---
 
-# Architecture and decision record
-
 > Project started on 2026-08-31. This document records architectural decisions and their rationale.
 > Append new decisions to the history below. Drafts and milestone schedules live in local `Plan/`
 > and are not committed. Historical proposals are identified as such; current authoring instructions

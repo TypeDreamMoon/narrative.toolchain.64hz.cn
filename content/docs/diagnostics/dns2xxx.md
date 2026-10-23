@@ -3,8 +3,6 @@ title: "DNS2xxx · 语法"
 description: "解析失败、意外的 token、块结构错误"
 ---
 
-由 `scripts/gen-diagnostics.mjs` 从插件的 `Docs/Diagnostics.md` 生成。
-
 ## DNS2001 [#dns2001]
 
 这一行缩进在一个不开块的行下面。

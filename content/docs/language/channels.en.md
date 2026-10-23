@@ -3,8 +3,6 @@ title: "Channels and events"
 description: "Parallel dialogue and events with parameters."
 ---
 
-# Channels and events
-
 ```dna
 channel 电台
   input: free          // Keep player input available

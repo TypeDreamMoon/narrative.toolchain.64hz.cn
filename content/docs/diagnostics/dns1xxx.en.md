@@ -3,8 +3,6 @@ title: "DNS1xxx — Lexer"
 description: "Invalid characters, unterminated strings and indentation."
 ---
 
-# DNS1xxx — Lexer
-
 ## DNS1001
 
 Indentation contains a full-width space (U+3000).

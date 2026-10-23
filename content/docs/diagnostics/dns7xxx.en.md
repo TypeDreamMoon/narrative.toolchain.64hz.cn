@@ -3,8 +3,6 @@ title: "DNS7xxx — Stage"
 description: "Timing, masks, restoration, units and time bases."
 ---
 
-# DNS7xxx — Stage
-
 ## DNS7001
 
 A camera cut is not covered by a mask.

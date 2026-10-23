@@ -3,8 +3,6 @@ title: "Tests and exploration"
 description: "Tests alongside the story and exploration of possible paths."
 ---
 
-# Tests and exploration
-
 ```dna
 test 零件齐了灯就亮
   given

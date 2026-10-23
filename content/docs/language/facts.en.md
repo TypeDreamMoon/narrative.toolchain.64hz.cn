@@ -3,8 +3,6 @@ title: "Characters and facts"
 description: "One ledger: types, ownership and storage scopes."
 ---
 
-# Characters and facts
-
 ```dna
 character 守夜人 player
 character 老周

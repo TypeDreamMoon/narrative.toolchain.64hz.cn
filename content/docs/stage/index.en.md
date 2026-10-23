@@ -3,8 +3,6 @@ title: "Stage language"
 description: "Tracks, time bases, shots and restoration."
 ---
 
-# Stage language
-
 ```dna
 stage 灯亮
   duration 5.0s

@@ -3,8 +3,6 @@ title: "DNS8xxx — Generation and write-back"
 description: "Asset creation, name conflicts and source ownership."
 ---
 
-# DNS8xxx — Generation and write-back
-
 ## DNS8001
 
 An asset name conflicts, or an asset cannot be created or saved.

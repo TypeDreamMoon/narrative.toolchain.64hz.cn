@@ -65,11 +65,13 @@
 
 首次导入的历史中文可以没有已核对基准；`sourceHash: null` / `origin: website-import` 表示待核对，不能伪造为最新英文已审阅。插件 squash 合并的同内容版本可以接续同步，检查同时覆盖英文和中文快照。
 
+首次迁移时 `source-lock.json` 钉住的是插件 PR 的提交；如果合并前后内容有任何差异（合并时顺手改字、PR 又追加了提交），同步会拒绝并提示 revision 不可比。处理方式是合并后在本仓库用插件发布分支上的提交手动跑一遗同步，确认内容后再合并网站 PR。
+
 翻译工作流仅在预览检查步骤设置 `DOCS_TRANSLATION_PREVIEW=true`，允许尚未提交的 `Docs/zh-CN/`。英文及其他插件文件仍须干净。预览的 `workingTree: true` 不能提交到网站默认分支或部署；不要在正式同步、部署或仓库级环境中设置该变量。
 
 ## 在哪里编辑
 
-- 插件原文：修改插件 `Docs/` 下对应主题的英文 Markdown；统一入口是 `Docs/README.md`。原 `Docs/Website/` 内容已并入正常主题目录，指南各章和诊断各组不再重复维护。示例中的中文标识符和对白是合法语言示例，可以保留。
+- 插件原文：修改插件 `Docs/` 下对应主题的英文 Markdown；统一入口是 `Docs/README.md`。原来合在一起的指南、诊断码和架构记录已经拆进各主题目录，诊断各组不再重复维护。示例中的中文标识符和对白是合法语言示例，可以保留。
 - 插件中文：在插件 `Docs/zh-CN/` 中维护与英文源路径对应的文件，或在 AI 创建的**插件 PR** 中修订。一个英文源文件只翻译一次；网站摘录、诊断分组和多个网址复用这份中文。
 - 插件翻译记录：`Docs/zh-CN/.translations/<英文相对Docs路径>.json` 与中文一起审阅。例如 `language/foo.md` 对应 `Docs/zh-CN/.translations/language/foo.md.json`。保留真实 `sourceRevision` 和 `sourceHash`，不要手工推进到未审阅的新英文。
 - 网站双语正文：`source-lock.json` 管理的 `content/docs/*.en.md[x]` 和中文页面由插件生成，直接改正文会触发覆盖保护。先将正文修改移到插件。`config.json` 的 `siteOnly` 页面仍在网站维护。
@@ -91,9 +93,9 @@
 
 ### 添加、改名与删除原文
 
-`docs-sync/config.json` 指定原文与既有路由的对应关系，支持整篇、按标题、诊断组摘录。目前 35 个页面全部映射到独立英文 Markdown 文件。尚未映射的 `Docs/**/*.md` 会自动出现在英文 `plugin/` 参考目录；仓库导航 `Docs/README.md` 已通过 `exclude` 排除。新增文档前明确页面 ID；移动文件时只调整 `sources.path`，保留原 ID，避免网址变化。所有路径大小写必须与 Git 中的文件一致。
+`docs-sync/config.json` 指定原文与既有路由的对应关系，支持整篇、按标题、诊断组摘录。目前 35 个页面全部映射到独立英文 Markdown 文件。尚未映射的 `Docs/**/*.md` 会自动出现在英文 `plugin/` 参考目录；仓库导航 `Docs/README.md` 已通过 `exclude` 排除，同时不算翻译单元（插件 `Docs/translation-status.py` 使用同一份排除列表）。新增文档前明确页面 ID；移动文件时只调整 `sources.path`，保留原 ID，避免网址变化。所有路径大小写必须与 Git 中的文件一致。
 
-单文件整篇页面的中文标题与摘要跟随插件 frontmatter；摘录或多来源页面可在页面映射中用 `titleZh` / `descriptionZh` 指定本站标题。
+页面标题与摘要优先取插件原文 frontmatter，没有 frontmatter 时才用页面映射里的 `title` / `description`；中文跟随中文 frontmatter，摘录或多来源页面可用 `titleZh` / `descriptionZh` 指定本站标题。插件保留开头的 `# 标题` 供 GitHub 阅读，生成页面时会去掉这一行，因为页面模板已经用标题渲染 `<h1>`。
 
 `Docs/zh-CN/` 及其中 metadata 不参与英文自动发现。移动英文时同步检查中文对应路径、metadata 和网站映射，保持页面 `id` 不变。文件名大小写必须与 Git 一致，以通过 Linux CI。
 

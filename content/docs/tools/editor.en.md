@@ -3,8 +3,6 @@ title: "Editor"
 description: "Story view, debugger and stage timeline."
 ---
 
-# Editor
-
 - **Narrative Story** in the Tools menu shows chapters, quests, dialogues, events, stages and their
   edges. Double-click to open source using the editor preference link template (VS Code by default).
   Right-click to edit conditions, connect nodes, create or delete dialogue, or **Generate staging**:

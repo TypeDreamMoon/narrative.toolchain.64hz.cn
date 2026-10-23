@@ -1,6 +1,6 @@
 ---
 title: "Overview"
-description: "Stories, quests, chapters, dialogue and stages authored as text."
+description: "Author stories, quests, chapters, dialogue and stages as text; the editor projects that source."
 ---
 
 DreamNarrative is a narrative plugin for Unreal Engine 5.8. Stories, quests, chapters, dialogue and

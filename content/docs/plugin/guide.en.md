@@ -3,14 +3,12 @@ title: "DreamNarrative guide"
 description: "Installation, authoring, integration, testing and staging."
 ---
 
-# DreamNarrative guide
-
 Write stories, quests, chapters, dialogue and stages in `.dna` text. The compiler turns them into assets,
 the runtime executes them, and the editor presents a projection of the text.
 This guide covers installation, authoring a story, game integration, testing and staging.
 See the [architecture decisions](/en/docs/plugin/architecture) for the reasoning, the
 [diagnostic reference](/en/docs/plugin/diagnostics) for every error code, and
-[Lighthouse](https://github.com/TypeDreamMoon/DreamNarrative/blob/6d01f60ead46dfbceeb82fccb24584634cd13ea0/Examples/Lighthouse/%E7%81%AF%E5%A1%94.dna) for a complete original example. Chinese identifiers and dialogue in the
+[Lighthouse](https://github.com/TypeDreamMoon/DreamNarrative/blob/5329fe24971df0a589c0ea61118ea1b2420186fe/Examples/Lighthouse/%E7%81%AF%E5%A1%94.dna) for a complete original example. Chinese identifiers and dialogue in the
 examples are intentional: the language supports Unicode names and multilingual narrative text.
 
 ## Read the guide

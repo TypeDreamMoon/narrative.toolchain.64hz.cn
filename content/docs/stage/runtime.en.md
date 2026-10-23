@@ -1,6 +1,6 @@
 ---
 title: "Director and restoration"
-description: "Apply sampled poses and restore world state however playback ends."
+description: "Apply a sampled pose each frame and restore world state however playback ends."
 ---
 
 - A pose is a pure function of stage and time (`SampleDnaStage`). The director applies it each frame;

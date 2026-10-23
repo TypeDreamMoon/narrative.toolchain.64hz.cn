@@ -3,8 +3,6 @@ title: "DNS4xxx — Expressions and types"
 description: "Type mismatches, invalid values and unsupported comparisons."
 ---
 
-# DNS4xxx — Expressions and types
-
 ## DNS4001
 
 Types do not match.

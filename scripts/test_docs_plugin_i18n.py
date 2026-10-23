@@ -148,7 +148,7 @@ class PluginI18nTests(unittest.TestCase):
         self.assertEqual(docs.statuses(self.root)[0]['status'], 'unreviewed')
 
     def test_source_status_excludes_legacy_navigation_and_website_snapshot(self):
-        for relative in ('DuiLanguage.md', 'FontsAndPackaging.md', 'Migration.md', 'Website/old.md'):
+        for relative in ('README.md', 'DuiLanguage.md', 'FontsAndPackaging.md', 'Migration.md', 'Website/old.md'):
             docs.write(self.plugin / 'Docs' / relative, '# Compatibility navigation\n')
         self.assertEqual(set(self.plugin_rows()), {'guide.md'})
 
@@ -440,6 +440,17 @@ class PluginI18nTests(unittest.TestCase):
         self.assertIn('[Jump](#widget-configuration)', translated)
         self.assertNotIn('配置 [#widget-configuration]', translated)
         self.assertIn(example, translated)
+
+    def test_unrelated_plugin_commit_does_not_rewrite_translation_records(self):
+        self.write_reviewed()
+        self.sync(adopt_existing=True)
+        record = self.root/'docs-sync/translations/guide.json'
+        before = docs.read(record)
+        self.sha = 'b'*40
+        with patch.object(docs.subprocess,'run') as process:
+            process.return_value.returncode=0
+            self.sync()
+        self.assertEqual(docs.read(record), before)
 
     def test_plugin_frontmatter_updates_generated_site_title_and_description(self):
         self.write_reviewed(body=docs.document('首版标题', '首版摘要', '# 指南\n\n原有正文。'))
