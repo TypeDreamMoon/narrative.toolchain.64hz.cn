@@ -1,13 +1,13 @@
 {
   "version": 1,
   "repository": "TypeDreamMoon/DreamNarrative",
-  "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+  "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
   "workingTree": false,
   "translationSnapshotHash": "74db9e28b5bdf54e9632eda0a64c0f8962958e34132e3f359ca263f16627b4a9",
   "pages": {
     "changelog/index": {
       "hash": "adf5d127b5618a72c7b3029194dbf2fd33c59007ffdc4268a24db6aee09a8c87",
-      "revision": "6d01f60ead46dfbceeb82fccb24584634cd13ea0",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/changelog/index.en.md",
       "outputHash": "776267d47f1a42d4c7e0aaeaa7cdf230ab625392551aebd216a84af92e393da3",
       "locale": "en",
@@ -29,7 +29,7 @@
     },
     "diagnostics/dns1xxx": {
       "hash": "2f1711072b4cc2986682172ac7894443371093be029086961e92821de70f1212",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/diagnostics/dns1xxx.en.md",
       "outputHash": "f0f72bef6a933e0f9231a566a427d7bda6885925c54e1129dccce96131183d46",
       "locale": "en",
@@ -51,7 +51,7 @@
     },
     "diagnostics/dns2xxx": {
       "hash": "f4fa273c49cf2c9a5d4a9fea98644d4215e14e27481ed378038ee7174c9540cb",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/diagnostics/dns2xxx.en.md",
       "outputHash": "7d1b2916a0af0c1cff44a1da2a019578aa135c32eb5c0baead5caea64b7a4784",
       "locale": "en",
@@ -73,7 +73,7 @@
     },
     "diagnostics/dns3xxx": {
       "hash": "f56136506b18200f3ec85fbf7269cccd64a8e5cd1097266954aa874ca55ba75f",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/diagnostics/dns3xxx.en.md",
       "outputHash": "35445d54702f006063c19c9ded89b34afaf34a56b81519628f95384c536dba60",
       "locale": "en",
@@ -95,7 +95,7 @@
     },
     "diagnostics/dns4xxx": {
       "hash": "57e4fe6821c674942ed6366ef186f3c1d4bc6fe61bbd8ca82510858e6d12d5b9",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/diagnostics/dns4xxx.en.md",
       "outputHash": "1a95825a2109a6a0bc1865ab358482afdcb293c36d14206bb1b1b923fab9dde7",
       "locale": "en",
@@ -117,7 +117,7 @@
     },
     "diagnostics/dns5xxx": {
       "hash": "a67d29d42496655c7bea58dc92eaf827be197460dad0cb63f42ab89921362855",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/diagnostics/dns5xxx.en.md",
       "outputHash": "ad1741bdf17ae7f4145c7a7cc54d070e531a10f94c889731a35ebf1bca810bc5",
       "locale": "en",
@@ -139,7 +139,7 @@
     },
     "diagnostics/dns7xxx": {
       "hash": "189ae493d5dec1072a4eb00c6b4a86b893146b2900844bcd6a00f91462e14bea",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/diagnostics/dns7xxx.en.md",
       "outputHash": "3eafaeba949a01da411f494bcd3d3ce25db2f7228c10876d8c11e355507d8c25",
       "locale": "en",
@@ -161,7 +161,7 @@
     },
     "diagnostics/dns8xxx": {
       "hash": "82d43f0f76c941bfc7ed54110aa80f9caf44a5afe230960f8ffff4e3d8e2f887",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/diagnostics/dns8xxx.en.md",
       "outputHash": "2781a33ad957b3ed1bf0236206c46afc47693b760ef620927059a8d4546dc6c4",
       "locale": "en",
@@ -183,7 +183,7 @@
     },
     "diagnostics/dns9xxx": {
       "hash": "d1aab1037e5262b2b6c5fef7d91fafca1a36d0d836a840051fa4adcdae09b8fb",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/diagnostics/dns9xxx.en.md",
       "outputHash": "859b0e48d810f5b5e028dcb1d53615a885f61acecdb016eecce5cc2110cd3204",
       "locale": "en",
@@ -205,7 +205,7 @@
     },
     "diagnostics/index": {
       "hash": "a996f1667dec28d368e286ac44d04808d34638d96ca21a2dcaa8a4938a4febef",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/diagnostics/index.en.md",
       "outputHash": "e725a67d39bc0d6aecf38ffe8133fcb24385837cf7239d07c971d2b762661b1e",
       "locale": "en",
@@ -227,7 +227,7 @@
     },
     "index": {
       "hash": "b5acef82b19ee4808d81fefff3915f1326f8f7926bff1cf1c8ff7ee0408fd5a7",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/index.en.md",
       "outputHash": "e94bba7946fe8bd4b6a18c6321094b2ddeddb9e7ec5420323cbc125a93f47477",
       "locale": "en",
@@ -249,7 +249,7 @@
     },
     "language/archives": {
       "hash": "6d7037fb5ba1753053d7a3b12986e7cee0df962cf0a48fc7a9071c7af564f930",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/language/archives.en.md",
       "outputHash": "ed02514dca34d9014fb11d3c744ac56e2e8931b52137a3afc0cb0cf4c915454e",
       "locale": "en",
@@ -271,7 +271,7 @@
     },
     "language/channels": {
       "hash": "be5ae0d4130b0bc2091860de99a4b9b7fd28c5757839e248381e0fba5a9295b8",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/language/channels.en.md",
       "outputHash": "3fef7f98d39ede3d0f91f25af03feaf5ab9de62b29494615f62b3b33796a2bfd",
       "locale": "en",
@@ -293,7 +293,7 @@
     },
     "language/chapters": {
       "hash": "3c33c887dd83d635073da35666214927bd9c80e3bd2f1643351b85c95348abfb",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/language/chapters.en.md",
       "outputHash": "8c8995fa23b76ede13f00a09778660358b455d2da0e186ccaec9e6b87e099079",
       "locale": "en",
@@ -315,7 +315,7 @@
     },
     "language/dialogue": {
       "hash": "58f9c5be1e687e3f8dbeefe5cbf88ae500e518635cce5506920215eb763b5f45",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/language/dialogue.en.md",
       "outputHash": "972bbebd531d000e1c3952481f0e25c591587c1c89654f1154494d0bb30c9736",
       "locale": "en",
@@ -337,7 +337,7 @@
     },
     "language/expressions": {
       "hash": "4826a7e23f97680467cbb6f8083d1124751c4a18c2d0f18e003168a2f2c241fe",
-      "revision": "6d01f60ead46dfbceeb82fccb24584634cd13ea0",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/language/expressions.en.md",
       "outputHash": "690551974b5eabe56d6806aa3211baafa41e3164e8576429443da62df57f22e5",
       "locale": "en",
@@ -359,7 +359,7 @@
     },
     "language/facts": {
       "hash": "8bc1787777e94a5086e9abf8661155b228d8b79ebcf7d84ef02b84ff034950d1",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/language/facts.en.md",
       "outputHash": "8df1d4236a22254e7334bb84665edb90f1634b8a973bd29067761eb5fb114109",
       "locale": "en",
@@ -381,7 +381,7 @@
     },
     "language/index": {
       "hash": "cc28a354466ca1e2ddd33d8ce74ecb4f4a3a999181c4261c63665f1facd0b5ba",
-      "revision": "6d01f60ead46dfbceeb82fccb24584634cd13ea0",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/language/index.en.md",
       "outputHash": "a2b5a089752902eb41ebdb5d63b8cdd9f923514a906df6924b2922656945b193",
       "locale": "en",
@@ -403,7 +403,7 @@
     },
     "language/quests": {
       "hash": "9d50aa146cabd764971206feccd8bc54a58976a1628d931656995de250372ba0",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/language/quests.en.md",
       "outputHash": "e00b5699e1896e1ccd75c5bee1d8fc3307b6a16b69e54bd40e6454751bb464bd",
       "locale": "en",
@@ -425,7 +425,7 @@
     },
     "language/tests": {
       "hash": "56f977c86a6ecb16528ce764538848b31cd9e535a92470b5f9440cb79dd099f4",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/language/tests.en.md",
       "outputHash": "088338f27b9b2ad36fd0cd11c1276b187fbe4e4b0da0cdb22de9f730fd885117",
       "locale": "en",
@@ -447,7 +447,7 @@
     },
     "runtime/gas": {
       "hash": "bf68110594092afe053a512748a6f8022aebcdd06d7518eb747af490a77fa8ac",
-      "revision": "6d01f60ead46dfbceeb82fccb24584634cd13ea0",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/runtime/gas.en.md",
       "outputHash": "abf8a46d676a5c2782df0ad3eebc141f561e7a3a9e4a574966dd83cb4510321d",
       "locale": "en",
@@ -469,7 +469,7 @@
     },
     "runtime/index": {
       "hash": "1b90a3a75c0d90c496e5d812c9491f26b3b95c4c1d9d4a0c899f2b6a5914af8c",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/runtime/index.en.md",
       "outputHash": "8ecb7e4278e651650b2fb13ab1ff9e65b9d4ea386186e9cc697c2280aac01b3e",
       "locale": "en",
@@ -491,7 +491,7 @@
     },
     "stage/editing": {
       "hash": "590e8b87719a114091e6a1fa9168c21e46a4b05ef60b06fde9a14f8992b0e27e",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/stage/editing.en.md",
       "outputHash": "fc792b4f571d88ef5dcfbad460c3fcb144c2757b3efe7f240a0b28f3da3d33f2",
       "locale": "en",
@@ -513,7 +513,7 @@
     },
     "stage/index": {
       "hash": "fab583c69d82366e600a616cd16df0f94c386c9ae89e7c8497cd17acbdb717a5",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/stage/index.en.md",
       "outputHash": "88bb969da0202b0badc5d3c8c7216b7909715a3383f6ebba008e3c69503f0ea7",
       "locale": "en",
@@ -535,7 +535,7 @@
     },
     "stage/runtime": {
       "hash": "668d1bf9fcb573f3979ea980a6c1a7ea1682331ee9b7c2c82b6c9463037495cf",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/stage/runtime.en.md",
       "outputHash": "7ac2521159d4e498b907437fef4d2dffc47808c5b8f13ae1cee2fa841b6734cb",
       "locale": "en",
@@ -557,9 +557,9 @@
     },
     "start/first-story": {
       "hash": "8c842166158dcd88363fc14e9298cb9ee2893dd5fd000da6d47fc7c3917f2594",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/start/first-story.en.md",
-      "outputHash": "f7a6a074b44344d2854266d353999c94d2cdb321eeff449676898f078f54a7bd",
+      "outputHash": "8c41f030a40c1d19a65de3567894f6889554745be90eebb22627167bfcfe593b",
       "locale": "en",
       "format": "md",
       "title": "Write your first story",
@@ -579,7 +579,7 @@
     },
     "start/install": {
       "hash": "f885549090245437fa30cd3f4e4f18ceeb988201dffe4fdffa8ce403a643b7a6",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/start/install.en.md",
       "outputHash": "2219b40995a088a6e75268fc8636d4e5870ab01ee30d6ed83d9606af989ba26f",
       "locale": "en",
@@ -601,7 +601,7 @@
     },
     "tools/dnc": {
       "hash": "ad8abffcddbf5960be5698412585d15d7731decdd51fec0140432c3a3aa4c706",
-      "revision": "6d01f60ead46dfbceeb82fccb24584634cd13ea0",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/tools/dnc.en.md",
       "outputHash": "96750e9d4ec0b052aa316ef8d4eb3848573f294f462e032ae0528a49e21d40e0",
       "locale": "en",
@@ -623,7 +623,7 @@
     },
     "tools/editor": {
       "hash": "f1ab21a14d171b9bf4aa9d659e5633d63a26b0c46eb52631ba91a75de854276e",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/tools/editor.en.md",
       "outputHash": "76584f78897ded97bd44f7f9d06411f5d9e127a57f0f065aabc0bd532bee7fa0",
       "locale": "en",
@@ -645,7 +645,7 @@
     },
     "tools/localization": {
       "hash": "e561163daef04dd9ae850322feac313d64d67cd08ffc200c353e0da5e1175058",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/tools/localization.en.md",
       "outputHash": "a683f1755d459fa1171eb6a6e793d4302b01005a0f0669df016c38f9b0d24d43",
       "locale": "en",
@@ -667,7 +667,7 @@
     },
     "tools/migration": {
       "hash": "2fb45d5496c46dc27a6c9c0c256dc4369b43a63bcef6d6b9e28d366debfdbeb2",
-      "revision": "6d01f60ead46dfbceeb82fccb24584634cd13ea0",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/tools/migration.en.md",
       "outputHash": "6bd010ba83a2c39f1ca801b7015a43ca335866babcbaa384718bcfdd0a4a53d7",
       "locale": "en",
@@ -689,7 +689,7 @@
     },
     "tools/vscode": {
       "hash": "035fa1ad565a73e80e776d6cf49bfc6fefa5c3b7d17d020c187a7757adf7d0e5",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/tools/vscode.en.md",
       "outputHash": "e8b95c5db515d372c55778bea03b8e883f0d88b9bc749acbbe85afb81cb35319",
       "locale": "en",
@@ -711,7 +711,7 @@
     },
     "plugin/architecture": {
       "hash": "7cccb2b9c33760fb57a4b562da18c57338a3b01287644e7ac8154a96794dd3d4",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/plugin/architecture.en.md",
       "outputHash": "bd8921a25062cc864d6c4a4c53cf0b975f05d552beabcc0c2e5c5f38af861e98",
       "locale": "en",
@@ -729,7 +729,7 @@
     },
     "plugin/diagnostics": {
       "hash": "ab6b24c58464f7ddb25fc30b9861f74fde8d1cf05a7f25245931d8266e94d41f",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/plugin/diagnostics.en.md",
       "outputHash": "2c04b0b5994fc55a7315a7b9ba194589df6f44052da9a12bcd3f4ef3eac2e12b",
       "locale": "en",
@@ -747,9 +747,9 @@
     },
     "plugin/guide": {
       "hash": "d77a2ba7346d1ab915f7185c12575261e51e156e5d7a95ab673d266b5d9a52df",
-      "revision": "5329fe24971df0a589c0ea61118ea1b2420186fe",
+      "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/plugin/guide.en.md",
-      "outputHash": "8d969a17ebdfb9da69bc32ff88eada59c1fc452d144a2bf776a72229e38e6e23",
+      "outputHash": "eb4de979c9a0c6ac185243ea3e016a18f49d3fac1f1f42179139c745a2f2be56",
       "locale": "en",
       "format": "md",
       "title": "DreamNarrative guide",
