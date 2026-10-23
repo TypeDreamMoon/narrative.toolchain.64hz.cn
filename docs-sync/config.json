@@ -1,0 +1,397 @@
+{
+  "version": 1,
+  "repository": "TypeDreamMoon/DreamNarrative",
+  "branch": "main",
+  "siteOnly": [],
+  "pages": [
+    {
+      "id": "changelog/index",
+      "sources": [
+        {
+          "path": "Docs/changelog/index.md"
+        }
+      ],
+      "format": "md",
+      "title": "Changelog",
+      "description": "What each version contains."
+    },
+    {
+      "id": "diagnostics/dns1xxx",
+      "sources": [
+        {
+          "path": "Docs/diagnostics/dns1xxx.md"
+        }
+      ],
+      "format": "md",
+      "title": "DNS1xxx — Lexer",
+      "description": "Invalid characters, unterminated strings and indentation."
+    },
+    {
+      "id": "diagnostics/dns2xxx",
+      "sources": [
+        {
+          "path": "Docs/diagnostics/dns2xxx.md"
+        }
+      ],
+      "format": "md",
+      "title": "DNS2xxx — Parser",
+      "description": "Unexpected tokens, invalid modifiers and block structure."
+    },
+    {
+      "id": "diagnostics/dns3xxx",
+      "sources": [
+        {
+          "path": "Docs/diagnostics/dns3xxx.md"
+        }
+      ],
+      "format": "md",
+      "title": "DNS3xxx — Names and references",
+      "description": "Undeclared names, missing targets and duplicate IDs."
+    },
+    {
+      "id": "diagnostics/dns4xxx",
+      "sources": [
+        {
+          "path": "Docs/diagnostics/dns4xxx.md"
+        }
+      ],
+      "format": "md",
+      "title": "DNS4xxx — Expressions and types",
+      "description": "Type mismatches, invalid values and unsupported comparisons."
+    },
+    {
+      "id": "diagnostics/dns5xxx",
+      "sources": [
+        {
+          "path": "Docs/diagnostics/dns5xxx.md"
+        }
+      ],
+      "format": "md",
+      "title": "DNS5xxx — Graph and reachability",
+      "description": "Unreachable content, softlocks and exploration assertions."
+    },
+    {
+      "id": "diagnostics/dns7xxx",
+      "sources": [
+        {
+          "path": "Docs/diagnostics/dns7xxx.md"
+        }
+      ],
+      "format": "md",
+      "title": "DNS7xxx — Stage",
+      "description": "Timing, masks, restoration, units and time bases."
+    },
+    {
+      "id": "diagnostics/dns8xxx",
+      "sources": [
+        {
+          "path": "Docs/diagnostics/dns8xxx.md"
+        }
+      ],
+      "format": "md",
+      "title": "DNS8xxx — Generation and write-back",
+      "description": "Asset creation, name conflicts and source ownership."
+    },
+    {
+      "id": "diagnostics/dns9xxx",
+      "sources": [
+        {
+          "path": "Docs/diagnostics/dns9xxx.md"
+        }
+      ],
+      "format": "md",
+      "title": "DNS9xxx — Toolchain",
+      "description": "File access, test ownership and exploration limits."
+    },
+    {
+      "id": "diagnostics/index",
+      "sources": [
+        {
+          "path": "Docs/diagnostics/index.md"
+        }
+      ],
+      "format": "md",
+      "title": "Diagnostics",
+      "description": "Diagnostic ranges and links to every code group."
+    },
+    {
+      "id": "index",
+      "sources": [
+        {
+          "path": "Docs/index.md"
+        }
+      ],
+      "format": "md",
+      "title": "Overview",
+      "description": "Stories, quests, chapters, dialogue and stages authored as text."
+    },
+    {
+      "id": "language/archives",
+      "sources": [
+        {
+          "path": "Docs/language/archives.md"
+        }
+      ],
+      "format": "md",
+      "title": "Archives",
+      "description": "Entries that remain available once unlocked."
+    },
+    {
+      "id": "language/channels",
+      "sources": [
+        {
+          "path": "Docs/language/channels.md"
+        }
+      ],
+      "format": "md",
+      "title": "Channels and events",
+      "description": "Parallel dialogue and events with parameters."
+    },
+    {
+      "id": "language/chapters",
+      "sources": [
+        {
+          "path": "Docs/language/chapters.md"
+        }
+      ],
+      "format": "md",
+      "title": "Chapters and playthroughs",
+      "description": "Chapter progression, checkpoints, chapter selection and new playthroughs."
+    },
+    {
+      "id": "language/dialogue",
+      "sources": [
+        {
+          "path": "Docs/language/dialogue.md"
+        }
+      ],
+      "format": "md",
+      "title": "Dialogue",
+      "description": "Speakers, choices, conditions and commands."
+    },
+    {
+      "id": "language/expressions",
+      "sources": [
+        {
+          "path": "Docs/language/expressions.md"
+        }
+      ],
+      "format": "md",
+      "title": "Expressions",
+      "description": "Expressions supported in conditions and interpolation."
+    },
+    {
+      "id": "language/facts",
+      "sources": [
+        {
+          "path": "Docs/language/facts.md"
+        }
+      ],
+      "format": "md",
+      "title": "Characters and facts",
+      "description": "One ledger: types, ownership and storage scopes."
+    },
+    {
+      "id": "language/index",
+      "sources": [
+        {
+          "path": "Docs/language/index.md"
+        }
+      ],
+      "format": "md",
+      "title": "Language",
+      "description": "Mix all top-level declarations in one source file."
+    },
+    {
+      "id": "language/quests",
+      "sources": [
+        {
+          "path": "Docs/language/quests.md"
+        }
+      ],
+      "format": "md",
+      "title": "Quests",
+      "description": "Ledger observers with objectives, journals, rewards, subquests and timeouts."
+    },
+    {
+      "id": "language/tests",
+      "sources": [
+        {
+          "path": "Docs/language/tests.md"
+        }
+      ],
+      "format": "md",
+      "title": "Tests and exploration",
+      "description": "Tests alongside the story and exploration of possible paths."
+    },
+    {
+      "id": "runtime/gas",
+      "sources": [
+        {
+          "path": "Docs/runtime/gas.md"
+        }
+      ],
+      "format": "md",
+      "title": "Gameplay Ability System",
+      "description": "The bidirectional bridge and stage ability task."
+    },
+    {
+      "id": "runtime/index",
+      "sources": [
+        {
+          "path": "Docs/runtime/index.md"
+        }
+      ],
+      "format": "md",
+      "title": "Game integration",
+      "description": "Subsystems, runners, snapshots, voice and console commands."
+    },
+    {
+      "id": "stage/editing",
+      "sources": [
+        {
+          "path": "Docs/stage/editing.md"
+        }
+      ],
+      "format": "md",
+      "title": "Timeline, generation and import",
+      "description": "Timeline editing, dialogue staging and Level Sequence import."
+    },
+    {
+      "id": "stage/index",
+      "sources": [
+        {
+          "path": "Docs/stage/index.md"
+        }
+      ],
+      "format": "md",
+      "title": "Stage language",
+      "description": "Tracks, time bases, shots and restoration."
+    },
+    {
+      "id": "stage/runtime",
+      "sources": [
+        {
+          "path": "Docs/stage/runtime.md"
+        }
+      ],
+      "format": "md",
+      "title": "Director and restoration",
+      "description": "Apply sampled poses and restore world state however playback ends."
+    },
+    {
+      "id": "start/first-story",
+      "sources": [
+        {
+          "path": "Docs/getting-started/first-story.md"
+        }
+      ],
+      "format": "md",
+      "title": "Write your first story",
+      "description": "Build the lighthouse story one topic at a time."
+    },
+    {
+      "id": "start/install",
+      "sources": [
+        {
+          "path": "Docs/getting-started/install.md"
+        }
+      ],
+      "format": "md",
+      "title": "Installation",
+      "description": "Plugin requirements, project settings and the first build."
+    },
+    {
+      "id": "tools/dnc",
+      "sources": [
+        {
+          "path": "Docs/tools/dnc.md"
+        }
+      ],
+      "format": "md",
+      "title": "dnc and testing",
+      "description": "Command-line tools, test presets, exploration and recording/replay."
+    },
+    {
+      "id": "tools/editor",
+      "sources": [
+        {
+          "path": "Docs/tools/editor.md"
+        }
+      ],
+      "format": "md",
+      "title": "Editor",
+      "description": "Story view, debugger and stage timeline."
+    },
+    {
+      "id": "tools/localization",
+      "sources": [
+        {
+          "path": "Docs/tools/localization.md"
+        }
+      ],
+      "format": "md",
+      "title": "Localization",
+      "description": "Stable IDs, namespaces, translation export and import."
+    },
+    {
+      "id": "tools/migration",
+      "sources": [
+        {
+          "path": "Docs/tools/migration.md"
+        }
+      ],
+      "format": "md",
+      "title": "Migrate from DreamGameplayTask",
+      "description": "Convert Blueprint quest definitions into .dna quests."
+    },
+    {
+      "id": "tools/vscode",
+      "sources": [
+        {
+          "path": "Docs/tools/vscode.md"
+        }
+      ],
+      "format": "md",
+      "title": "VS Code",
+      "description": "Highlighting, outlines, navigation and compiler diagnostics."
+    },
+    {
+      "id": "plugin/architecture",
+      "sources": [
+        {
+          "path": "Docs/contributing/architecture.md"
+        }
+      ],
+      "format": "md",
+      "title": "Architecture and decision record",
+      "description": "Architectural decisions, reasoning and implementation history."
+    },
+    {
+      "id": "plugin/diagnostics",
+      "sources": [
+        {
+          "path": "Docs/diagnostics/reference.md"
+        }
+      ],
+      "format": "md",
+      "title": "Diagnostic reference",
+      "description": "Code-group navigation and localization and asset diagnostics."
+    },
+    {
+      "id": "plugin/guide",
+      "sources": [
+        {
+          "path": "Docs/getting-started/guide.md"
+        }
+      ],
+      "format": "md",
+      "title": "DreamNarrative guide",
+      "description": "Installation, authoring, integration, testing and staging."
+    }
+  ],
+  "exclude": [
+    "Docs/README.md"
+  ],
+  "siteUrl": "https://narrative.toolchain.64hz.cn"
+}

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "status": "unreviewed",
+  "sourceHash": null,
+  "sourceRevision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
+  "sources": [
+    {
+      "path": "Docs/language/channels.md",
+      "sourceHash": null,
+      "sourceRevision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "translationHash": "340626aa27c91b57d8ede73ca58516c81cca0cb032b09340264e8d0afac15af0"
+    }
+  ],
+  "translationFile": "content/docs/language/channels.md",
+  "translationHash": "736b62aff61857c4a756f76596ef47392dda642831f163e1d746467608a0fe0f"
+}

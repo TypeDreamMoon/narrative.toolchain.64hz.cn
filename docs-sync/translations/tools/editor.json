@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "status": "unreviewed",
+  "sourceHash": null,
+  "sourceRevision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
+  "sources": [
+    {
+      "path": "Docs/tools/editor.md",
+      "sourceHash": null,
+      "sourceRevision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "translationHash": "17cde554825ead8c6655e53004077ced28b4b0ddbbca0ec981d26a2425edd784"
+    }
+  ],
+  "translationFile": "content/docs/tools/editor.md",
+  "translationHash": "332027479c7a0a9452c5d1be1d6c0d785fbb38c001935e3ee2bb666cc3c4eebc"
+}

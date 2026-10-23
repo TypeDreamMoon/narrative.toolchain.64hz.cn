@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "status": "unreviewed",
+  "sourceHash": null,
+  "sourceRevision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
+  "sources": [
+    {
+      "path": "Docs/language/facts.md",
+      "sourceHash": null,
+      "sourceRevision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "translationHash": "9fb96b3f6eee17029e1820d607bd96a4476c3144c6652237977860b821e5ed76"
+    }
+  ],
+  "translationFile": "content/docs/language/facts.md",
+  "translationHash": "c2c0f23d4694605ad785a942d75d00a4fc1b1359b4b60f2d9f7a1d551ecfdbea"
+}

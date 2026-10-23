@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "status": "unreviewed",
+  "sourceHash": null,
+  "sourceRevision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
+  "sources": [
+    {
+      "path": "Docs/tools/dnc.md",
+      "sourceHash": null,
+      "sourceRevision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
+      "translationHash": "2420c808233ee044b1cc385edbed48f26d3e5372cf82cdb246735e050838e316"
+    }
+  ],
+  "translationFile": "content/docs/tools/dnc.md",
+  "translationHash": "19fd8d8ca15bc9dafaa4c6c721c9fa7e19e281c5578fbde595c6d6754aac3fa2"
+}

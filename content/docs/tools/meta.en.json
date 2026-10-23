@@ -1,0 +1,10 @@
+{
+  "title": "Tools",
+  "pages": [
+    "editor",
+    "dnc",
+    "vscode",
+    "migration",
+    "localization"
+  ]
+}
