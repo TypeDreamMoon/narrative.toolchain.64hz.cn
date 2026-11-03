@@ -156,3 +156,6 @@ vite.config.ts.timestamp-*
 .docs-sync-tmp/
 __pycache__/
 *.pyc
+
+# dreamdocs checkout used by the sync and deploy workflows
+.dreamdocs/
