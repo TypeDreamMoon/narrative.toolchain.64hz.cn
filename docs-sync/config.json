@@ -2,6 +2,8 @@
   "version": 1,
   "repository": "TypeDreamMoon/DreamNarrative",
   "branch": "main",
+  "stripLeadingTitle": true,
+  "titleSource": "plugin",
   "siteOnly": [],
   "pages": [
     {
@@ -225,7 +227,7 @@
       "description": "Tests alongside the story and exploration of possible paths."
     },
     {
-      "id": "runtime/gas",
+      "id": "in-game/gas",
       "sources": [
         {
           "path": "Docs/runtime/gas.md"
@@ -236,7 +238,7 @@
       "description": "The bidirectional bridge and stage ability task."
     },
     {
-      "id": "runtime/index",
+      "id": "in-game/index",
       "sources": [
         {
           "path": "Docs/runtime/index.md"
@@ -269,7 +271,7 @@
       "description": "Tracks, time bases, shots and restoration."
     },
     {
-      "id": "stage/runtime",
+      "id": "stage/in-game",
       "sources": [
         {
           "path": "Docs/stage/runtime.md"

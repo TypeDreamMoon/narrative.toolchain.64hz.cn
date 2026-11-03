@@ -226,10 +226,10 @@
       }
     },
     "index": {
-      "hash": "b5acef82b19ee4808d81fefff3915f1326f8f7926bff1cf1c8ff7ee0408fd5a7",
+      "hash": "a4e0bf5e4a53b2b230efd131a98f04729e8cfd90c5f8fb7c796528ad081f9119",
       "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/index.en.md",
-      "outputHash": "e94bba7946fe8bd4b6a18c6321094b2ddeddb9e7ec5420323cbc125a93f47477",
+      "outputHash": "4d8b7b8ec594b0f97865ce94e04cd003be0cb0f0c091c5e12e131abba731bd24",
       "locale": "en",
       "format": "md",
       "title": "Overview",
@@ -243,8 +243,8 @@
         "status": "unreviewed",
         "output": "content/docs/index.md",
         "record": "docs-sync/translations/index.json",
-        "outputHash": "89674d3692850f1b616578780de31687a3fd643eafa42e4bda533fec97d2fd4b",
-        "bodyHash": "26902dcb6a56de429781c52c3f3347ee4854b4cbdd637ca8636bf3fc187885eb"
+        "outputHash": "328725ea0fb4b435444b5491b19d974b197eab13daf8c0044a5448a0148b9255",
+        "bodyHash": "f75ccb076c4dc4f6c3c5e9fe837e6e8d66675852ce5e6d792c730f0a2c9d43dd"
       }
     },
     "language/archives": {
@@ -445,10 +445,10 @@
         "bodyHash": "a7a54b1940176783c0c90aef6bea9758ce24c62f1d4e9d6158e11cd02590bf61"
       }
     },
-    "runtime/gas": {
+    "in-game/gas": {
       "hash": "bf68110594092afe053a512748a6f8022aebcdd06d7518eb747af490a77fa8ac",
       "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
-      "output": "content/docs/runtime/gas.en.md",
+      "output": "content/docs/in-game/gas.en.md",
       "outputHash": "abf8a46d676a5c2782df0ad3eebc141f561e7a3a9e4a574966dd83cb4510321d",
       "locale": "en",
       "format": "md",
@@ -461,16 +461,16 @@
       ],
       "translation": {
         "status": "unreviewed",
-        "output": "content/docs/runtime/gas.md",
-        "record": "docs-sync/translations/runtime/gas.json",
+        "output": "content/docs/in-game/gas.md",
+        "record": "docs-sync/translations/in-game/gas.json",
         "outputHash": "937473637781f917fe80e54e6979209cfda698118a32297aa004177e8061bb2d",
         "bodyHash": "89b873e7a947934c8a56a6f8e08cd05710a1da898f21ff958a10c0d5efa760fa"
       }
     },
-    "runtime/index": {
+    "in-game/index": {
       "hash": "1b90a3a75c0d90c496e5d812c9491f26b3b95c4c1d9d4a0c899f2b6a5914af8c",
       "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
-      "output": "content/docs/runtime/index.en.md",
+      "output": "content/docs/in-game/index.en.md",
       "outputHash": "8ecb7e4278e651650b2fb13ab1ff9e65b9d4ea386186e9cc697c2280aac01b3e",
       "locale": "en",
       "format": "md",
@@ -483,8 +483,8 @@
       ],
       "translation": {
         "status": "unreviewed",
-        "output": "content/docs/runtime/index.md",
-        "record": "docs-sync/translations/runtime/index.json",
+        "output": "content/docs/in-game/index.md",
+        "record": "docs-sync/translations/in-game/index.json",
         "outputHash": "5d3c2809e2ccef2bd0ea110ad48e24194c41c4d78e0f36a9c0c90e382e794b73",
         "bodyHash": "acc3e365869c8ea91bbc202342ca25eda823af73e956fdc9ffb604876edeafa3"
       }
@@ -533,10 +533,10 @@
         "bodyHash": "a589f2b5147446e1c22f7615dff19f257bf6bb34b6e8b5995db6634ee99cf84b"
       }
     },
-    "stage/runtime": {
+    "stage/in-game": {
       "hash": "668d1bf9fcb573f3979ea980a6c1a7ea1682331ee9b7c2c82b6c9463037495cf",
       "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
-      "output": "content/docs/stage/runtime.en.md",
+      "output": "content/docs/stage/in-game.en.md",
       "outputHash": "7ac2521159d4e498b907437fef4d2dffc47808c5b8f13ae1cee2fa841b6734cb",
       "locale": "en",
       "format": "md",
@@ -549,8 +549,8 @@
       ],
       "translation": {
         "status": "unreviewed",
-        "output": "content/docs/stage/runtime.md",
-        "record": "docs-sync/translations/stage/runtime.json",
+        "output": "content/docs/stage/in-game.md",
+        "record": "docs-sync/translations/stage/in-game.json",
         "outputHash": "893ddaeec73e45f83e05a9d7be8781f3a5a670adc28aed493b73d285f6059294",
         "bodyHash": "1790b878720b337e4497efd4049146b83be57c0b1fc94e452486a8ce81381480"
       }
@@ -746,10 +746,10 @@
       }
     },
     "plugin/guide": {
-      "hash": "d77a2ba7346d1ab915f7185c12575261e51e156e5d7a95ab673d266b5d9a52df",
+      "hash": "c00e45de46442c43e0cf02e3910b48ae8a7685d8a021a87de81d4af884b2f989",
       "revision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
       "output": "content/docs/plugin/guide.en.md",
-      "outputHash": "eb4de979c9a0c6ac185243ea3e016a18f49d3fac1f1f42179139c745a2f2be56",
+      "outputHash": "a4231dd77a6d7a2295192c2e345f98973963e617ea74e356dcb888d1dd632326",
       "locale": "en",
       "format": "md",
       "title": "DreamNarrative guide",
