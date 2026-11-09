@@ -2,15 +2,15 @@
   "version": 2,
   "status": "unreviewed",
   "sourceHash": null,
-  "sourceRevision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
+  "sourceRevision": "666f62639a046807189f63a298c54ddc07e5b1ab",
   "sources": [
     {
       "path": "Docs/stage/index.md",
-      "sourceHash": null,
-      "sourceRevision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
-      "translationHash": "2661538908b44563b6c0bfaee5faac3892b0f1856240d8c3ef82df879e2b8043"
+      "alignedRevision": "",
+      "alignedPage": null,
+      "translationHash": "3583217d4488f6ec16b616c23cb55bc0ef79ecc03e118f3f223d9c2f6f5a49ec"
     }
   ],
   "translationFile": "content/docs/stage/index.md",
-  "translationHash": "8f718f51359c837c81df0413b989d1535d9458c3bdd3d348fbd19676630be79e"
+  "translationHash": "dbecd82cf8b42e0133d209b51edc3a65801c63451d2ae8593810196c1dc46f98"
 }

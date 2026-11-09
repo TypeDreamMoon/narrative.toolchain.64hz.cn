@@ -2,15 +2,15 @@
   "version": 2,
   "status": "unreviewed",
   "sourceHash": null,
-  "sourceRevision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
+  "sourceRevision": "666f62639a046807189f63a298c54ddc07e5b1ab",
   "sources": [
     {
       "path": "Docs/language/dialogue.md",
-      "sourceHash": null,
-      "sourceRevision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
-      "translationHash": "5bb2857e7ecef9fbec0703b83fff55e408c5f22b51991ce11959e712b16ce3f7"
+      "alignedRevision": "",
+      "alignedPage": null,
+      "translationHash": "4535e50a7aa0946994ad3fa0e63d90efc5706f69f7a6d00d6c6d0a8c165e12d3"
     }
   ],
   "translationFile": "content/docs/language/dialogue.md",
-  "translationHash": "7e41b117ca9df38549f465516f39da57e87bb8d36303e712aeb4069bd528a3ff"
+  "translationHash": "947d90cb3c80e881d91dc971e72dc2678ac9799e9c9e98789dce128fdb146f37"
 }

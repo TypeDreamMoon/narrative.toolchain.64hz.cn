@@ -2,15 +2,15 @@
   "version": 2,
   "status": "unreviewed",
   "sourceHash": null,
-  "sourceRevision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
+  "sourceRevision": "666f62639a046807189f63a298c54ddc07e5b1ab",
   "sources": [
     {
       "path": "Docs/language/quests.md",
-      "sourceHash": null,
-      "sourceRevision": "d48e14e6ef1103a9ca13702a8d1e17e98c2a88a5",
-      "translationHash": "d28bad54d2f95e84f9a55b594c23b9eaffe4f1e22fc1d2cb89bc86a983d71ba9"
+      "alignedRevision": "",
+      "alignedPage": null,
+      "translationHash": "a250d7a4fdb295324cfd3a68b27f8b104091dd64e6441029d74c5d8d5319c48b"
     }
   ],
   "translationFile": "content/docs/language/quests.md",
-  "translationHash": "8456c391643078276111b1a7c50fc0768f3374421e88a0966c3cee77ff66c76c"
+  "translationHash": "44c4fd637616f46f95dc249aa49ad398c8fe091e6052cde9f8e0e2c455c4f413"
 }
