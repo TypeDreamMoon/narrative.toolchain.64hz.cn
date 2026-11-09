@@ -18,5 +18,5 @@ blocks. The **explorer** enumerates paths to find softlocks and other counterexa
 - [Write your first story](/en/docs/start/first-story)
 - [Language](/en/docs/language)
 - [Stage language](/en/docs/stage)
-- [Game integration](/en/docs/runtime)
+- [Game integration](/en/docs/in-game)
 - [Diagnostics](/en/docs/diagnostics)

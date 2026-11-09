@@ -16,7 +16,7 @@ examples are intentional: the language supports Unicode names and multilingual n
 1. [Install the plugin](/en/docs/start/install).
 2. [Write your first story](/en/docs/start/first-story), then use the [language reference](/en/docs/language).
 3. [Author a stage](/en/docs/stage) and use the [timeline and generators](/en/docs/stage/editing).
-4. [Integrate the runtime and voice](/en/docs/runtime), with the optional [GAS bridge](/en/docs/runtime/gas).
+4. [Integrate the runtime and voice](/en/docs/in-game), with the optional [GAS bridge](/en/docs/in-game/gas).
 5. [Write tests and explore paths](/en/docs/language/tests); run them with [dnc](/en/docs/tools/dnc).
 6. Use the [editor](/en/docs/tools/editor), [localization tools](/en/docs/tools/localization) and [VS Code extension](/en/docs/tools/vscode).
 
