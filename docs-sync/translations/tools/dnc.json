@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "status": "unreviewed",
-  "sourceHash": null,
+  "status": "current",
+  "sourceHash": "ad8abffcddbf5960be5698412585d15d7731decdd51fec0140432c3a3aa4c706",
   "sourceRevision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
   "sources": [
     {
       "path": "Docs/tools/dnc.md",
-      "alignedRevision": "",
-      "alignedPage": null,
-      "translationHash": "2420c808233ee044b1cc385edbed48f26d3e5372cf82cdb246735e050838e316"
+      "alignedRevision": "666f62639a04",
+      "alignedPage": "1e2c8d49dd34",
+      "translationHash": "724608492986252a1bd62592bd433ed26b04229c0ea157fcb61664220bdfb1e7"
     }
   ],
   "translationFile": "content/docs/tools/dnc.md",
-  "translationHash": "19fd8d8ca15bc9dafaa4c6c721c9fa7e19e281c5578fbde595c6d6754aac3fa2"
+  "translationHash": "90f0bb9fe104aba125807c289246a9cc9a2e7d803dcf60a3af3c03983ce1d69e"
 }

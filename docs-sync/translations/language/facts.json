@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "status": "unreviewed",
-  "sourceHash": null,
+  "status": "current",
+  "sourceHash": "8bc1787777e94a5086e9abf8661155b228d8b79ebcf7d84ef02b84ff034950d1",
   "sourceRevision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
   "sources": [
     {
       "path": "Docs/language/facts.md",
-      "alignedRevision": "",
-      "alignedPage": null,
-      "translationHash": "9fb96b3f6eee17029e1820d607bd96a4476c3144c6652237977860b821e5ed76"
+      "alignedRevision": "666f62639a04",
+      "alignedPage": "07c4ce455b5f",
+      "translationHash": "cc70e7131dd6d6ec571c90fe8106ee663db1df9a262f42cf6abc8e95cdc06099"
     }
   ],
   "translationFile": "content/docs/language/facts.md",
-  "translationHash": "c2c0f23d4694605ad785a942d75d00a4fc1b1359b4b60f2d9f7a1d551ecfdbea"
+  "translationHash": "139ed888d4a6bd5b7400a0f311bafb03b214e10a79ff9228f48d8c448c0b9820"
 }

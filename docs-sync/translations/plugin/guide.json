@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "status": "current",
+  "sourceHash": "c00e45de46442c43e0cf02e3910b48ae8a7685d8a021a87de81d4af884b2f989",
+  "sourceRevision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
+  "sources": [
+    {
+      "path": "Docs/getting-started/guide.md",
+      "alignedRevision": "666f62639a04",
+      "alignedPage": "240cf69d6275",
+      "translationHash": "e74de51c3f300ce4435ff6f4598e4d47397a9412b63dda689dc06a2e28fdff40"
+    }
+  ],
+  "translationFile": "content/docs/plugin/guide.md",
+  "translationHash": "6929a08eb7e485a71b7c269feb109c4368e5987753448da01fdc34d8112c022b"
+}

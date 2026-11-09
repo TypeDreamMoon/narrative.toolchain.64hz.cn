@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "status": "unreviewed",
-  "sourceHash": null,
+  "status": "current",
+  "sourceHash": "294e79c396795b15cadf85dbc537dbbb0f66961b0eed96616b445f79e74196ca",
   "sourceRevision": "666f62639a046807189f63a298c54ddc07e5b1ab",
   "sources": [
     {
       "path": "Docs/language/dialogue.md",
-      "alignedRevision": "",
-      "alignedPage": null,
-      "translationHash": "4535e50a7aa0946994ad3fa0e63d90efc5706f69f7a6d00d6c6d0a8c165e12d3"
+      "alignedRevision": "666f62639a04",
+      "alignedPage": "0ab1f689b18e",
+      "translationHash": "3b974fc3a2cc0d021608b94b6070ca946fe3753b2ce49170d7f5dfb4c7eb79ef"
     }
   ],
   "translationFile": "content/docs/language/dialogue.md",
-  "translationHash": "947d90cb3c80e881d91dc971e72dc2678ac9799e9c9e98789dce128fdb146f37"
+  "translationHash": "792f4a1646b51061c12b391e69f87f69d100a8ecc7e363a4403f27182e3e7770"
 }

@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "status": "unreviewed",
-  "sourceHash": null,
+  "status": "current",
+  "sourceHash": "57e01ce2f3e258b2290d2c9de9f5e9ecdc55627fd77e3e5cef2d865f55caf86f",
   "sourceRevision": "666f62639a046807189f63a298c54ddc07e5b1ab",
   "sources": [
     {
       "path": "Docs/runtime/index.md",
-      "alignedRevision": "",
-      "alignedPage": null,
-      "translationHash": "b9fd08fe9736f0155a78d4c20522df68966cf005992c89c7e819fde9f4d92ba2"
+      "alignedRevision": "666f62639a04",
+      "alignedPage": "b145a26c9031",
+      "translationHash": "ba72fdbd785166ce87ac0fcffd00141fd785b63ac7766aef442e8f8fced8d5cd"
     }
   ],
   "translationFile": "content/docs/in-game/index.md",
-  "translationHash": "5d3c2809e2ccef2bd0ea110ad48e24194c41c4d78e0f36a9c0c90e382e794b73"
+  "translationHash": "92f44cc77630cb2c94c91ca001e2a109df7dfeaed7e30c02ade7739407cc0479"
 }

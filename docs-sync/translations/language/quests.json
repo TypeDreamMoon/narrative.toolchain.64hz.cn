@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "status": "unreviewed",
-  "sourceHash": null,
+  "status": "current",
+  "sourceHash": "e31fc48e2a98f6cf7ffcfd5a4b5e0f8a0913b7f6af833506234d3d8e9e36d4e7",
   "sourceRevision": "666f62639a046807189f63a298c54ddc07e5b1ab",
   "sources": [
     {
       "path": "Docs/language/quests.md",
-      "alignedRevision": "",
-      "alignedPage": null,
-      "translationHash": "a250d7a4fdb295324cfd3a68b27f8b104091dd64e6441029d74c5d8d5319c48b"
+      "alignedRevision": "666f62639a04",
+      "alignedPage": "a92a255f83eb",
+      "translationHash": "cc532fa99552980a21e27fdf0131d7bc3b7a8c209e9edb5ac83cc5a1ba63209b"
     }
   ],
   "translationFile": "content/docs/language/quests.md",
-  "translationHash": "44c4fd637616f46f95dc249aa49ad398c8fe091e6052cde9f8e0e2c455c4f413"
+  "translationHash": "1a49bcdd98c4f2a6febe44065efa3ddd419212e1041b9202fee40cdd51344e44"
 }

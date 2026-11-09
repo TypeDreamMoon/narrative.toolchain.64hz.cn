@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "status": "current",
+  "sourceHash": "725ec72529970b0932f7ece8774c987be6229968ff17e297bd40b8379df3a12e",
+  "sourceRevision": "666f62639a046807189f63a298c54ddc07e5b1ab",
+  "sources": [
+    {
+      "path": "Docs/diagnostics/reference.md",
+      "alignedRevision": "666f62639a04",
+      "alignedPage": "d901260fd96e",
+      "translationHash": "c9cd23b6144567359ccacbf253f5b06c281707e3d01aa002d03642477cfb5c84"
+    }
+  ],
+  "translationFile": "content/docs/plugin/diagnostics.md",
+  "translationHash": "c7d7d28837cc8845e7664218f4e8f6ad904c0030c582fe97070369c22f6455c3"
+}

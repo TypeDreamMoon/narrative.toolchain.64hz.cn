@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "status": "unreviewed",
-  "sourceHash": null,
+  "status": "current",
+  "sourceHash": "bf68110594092afe053a512748a6f8022aebcdd06d7518eb747af490a77fa8ac",
   "sourceRevision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
   "sources": [
     {
       "path": "Docs/runtime/gas.md",
-      "alignedRevision": "",
-      "alignedPage": null,
-      "translationHash": "4afae91794352341ad3d3c6948ce0d94b26add5f0cc45370363a063d15e8733c"
+      "alignedRevision": "666f62639a04",
+      "alignedPage": "3b50e2bfd70e",
+      "translationHash": "f8f4edf11d25e90b645ef61918df881a512c0330b3cfbc3093492dbb095b687a"
     }
   ],
   "translationFile": "content/docs/in-game/gas.md",
-  "translationHash": "937473637781f917fe80e54e6979209cfda698118a32297aa004177e8061bb2d"
+  "translationHash": "960ab4cac73e860b35076809083f2bae901d2fd0ddd9faf51f492c537defab49"
 }

@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "status": "unreviewed",
-  "sourceHash": null,
+  "status": "current",
+  "sourceHash": "f885549090245437fa30cd3f4e4f18ceeb988201dffe4fdffa8ce403a643b7a6",
   "sourceRevision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
   "sources": [
     {
       "path": "Docs/getting-started/install.md",
-      "alignedRevision": "",
-      "alignedPage": null,
-      "translationHash": "257968b1c71ff4c2cd68e2a365c97cb36e9655dce3b282ee0a730984a4a4c1d1"
+      "alignedRevision": "666f62639a04",
+      "alignedPage": "725bd74e53ff",
+      "translationHash": "d832cadc91d6cb8cbf40bd6a0e6554e837dc0f8496521959f8415142c379f851"
     }
   ],
   "translationFile": "content/docs/start/install.md",
-  "translationHash": "d447301a964337023c9962b68e4d572dd7e500a7551814298a6ce3a5aa44e685"
+  "translationHash": "bbcea31cc8be809bca881824ce37f67874619f64bcfc03ab6021a5b2001ebd0c"
 }

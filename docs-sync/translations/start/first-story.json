@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "status": "unreviewed",
-  "sourceHash": null,
+  "status": "current",
+  "sourceHash": "8c842166158dcd88363fc14e9298cb9ee2893dd5fd000da6d47fc7c3917f2594",
   "sourceRevision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
   "sources": [
     {
       "path": "Docs/getting-started/first-story.md",
-      "alignedRevision": "",
-      "alignedPage": null,
-      "translationHash": "0415df3fbea38699abbccc4902bc2531665fe1a03bbde3074f187f0d5d232da0"
+      "alignedRevision": "666f62639a04",
+      "alignedPage": "8df42814e82e",
+      "translationHash": "06e840f1a787bd444bfdaa4b7df73de5a987daeebecd7a9c7a90cd04823a678c"
     }
   ],
   "translationFile": "content/docs/start/first-story.md",
-  "translationHash": "134f3a6481419de97396fb32f79c670c4894e3c7da1e752dd08c3e52b0b0db1f"
+  "translationHash": "aa4e00dfac8d249373650f535b1a7054b5b20dbd119f5c610af719ceab089e42"
 }

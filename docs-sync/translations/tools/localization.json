@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "status": "unreviewed",
-  "sourceHash": null,
+  "status": "current",
+  "sourceHash": "d6dc6f0f94adb89a049db1e15851cae4083fd587d4b3132e384dc370fc72405f",
   "sourceRevision": "666f62639a046807189f63a298c54ddc07e5b1ab",
   "sources": [
     {
       "path": "Docs/tools/localization.md",
-      "alignedRevision": "",
-      "alignedPage": null,
-      "translationHash": "9f6407d22de161906823e3ce189ea4d99583671f483daf8a59b5b499c40d369b"
+      "alignedRevision": "666f62639a04",
+      "alignedPage": "f2c362d295db",
+      "translationHash": "eee62df6b500460478a600e62d219b54ca9a7de7e5664c1356f8f491f1814a88"
     }
   ],
   "translationFile": "content/docs/tools/localization.md",
-  "translationHash": "ef903ec542b01d42c481d1fb30e504c70bb414e3c0ffdb6eab3f90f9738d3926"
+  "translationHash": "779aac190af0d20e87d7dd470f98b00255446f1e44e2774b5e4da7e529cbc8c1"
 }

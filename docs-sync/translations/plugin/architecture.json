@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "status": "current",
+  "sourceHash": "7cccb2b9c33760fb57a4b562da18c57338a3b01287644e7ac8154a96794dd3d4",
+  "sourceRevision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
+  "sources": [
+    {
+      "path": "Docs/contributing/architecture.md",
+      "alignedRevision": "666f62639a04",
+      "alignedPage": "ccaec195978c",
+      "translationHash": "464acb99596db8e8fb2fe4b3681cf900e62f64a72c12a1f52e46f7acdc70e391"
+    }
+  ],
+  "translationFile": "content/docs/plugin/architecture.md",
+  "translationHash": "ed71a08e406ee4958660516cd348a0d42ea4b5ec12c7cb57b149681d10aa6975"
+}

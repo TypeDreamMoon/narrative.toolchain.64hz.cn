@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "status": "unreviewed",
-  "sourceHash": null,
+  "status": "current",
+  "sourceHash": "b338cb8582a3326fbad87efc695fc74ffa61b744e5e179802097fa9b7970afad",
   "sourceRevision": "666f62639a046807189f63a298c54ddc07e5b1ab",
   "sources": [
     {
       "path": "Docs/language/archives.md",
-      "alignedRevision": "",
-      "alignedPage": null,
-      "translationHash": "957119b816701850495d12ada239be8ad7382e59f9fd2fbd2894334a870fa308"
+      "alignedRevision": "666f62639a04",
+      "alignedPage": "aac459af9820",
+      "translationHash": "64009497d1226fa6cc2b68789b46b2035be604a4e6f7b61c932ea0406aa2ed9b"
     }
   ],
   "translationFile": "content/docs/language/archives.md",
-  "translationHash": "7e2480e8ba53b7029bbed8d126d3cac04043a2048fad1a1cbfabf00db5e457f3"
+  "translationHash": "9e845811eed9e74eec5d4decbfba8e42f8a02fdbb848d9a7543a17271dc60037"
 }

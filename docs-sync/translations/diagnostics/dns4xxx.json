@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "status": "unreviewed",
-  "sourceHash": null,
+  "status": "current",
+  "sourceHash": "57e4fe6821c674942ed6366ef186f3c1d4bc6fe61bbd8ca82510858e6d12d5b9",
   "sourceRevision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
   "sources": [
     {
       "path": "Docs/diagnostics/dns4xxx.md",
-      "alignedRevision": "",
-      "alignedPage": null,
-      "translationHash": "30f9fc9a02d558e3900694f671cf5c15ccad01c940edf9f5f254667ef5a91973"
+      "alignedRevision": "666f62639a04",
+      "alignedPage": "085c034a568e",
+      "translationHash": "d477ae67c116736f668b1e38fac4b737704d782ecbe0a0266ad165c8d755ad68"
     }
   ],
   "translationFile": "content/docs/diagnostics/dns4xxx.md",
-  "translationHash": "c7d8aa22bbf30be88389443cf1ad8d65289af8ca533fe36e1d775cb325b0559a"
+  "translationHash": "4610f92a9bbf51fec64a671c919c19834979131d93e01a0416ff165d8c39944e"
 }

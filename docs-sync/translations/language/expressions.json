@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "status": "unreviewed",
-  "sourceHash": null,
+  "status": "current",
+  "sourceHash": "4826a7e23f97680467cbb6f8083d1124751c4a18c2d0f18e003168a2f2c241fe",
   "sourceRevision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
   "sources": [
     {
       "path": "Docs/language/expressions.md",
-      "alignedRevision": "",
-      "alignedPage": null,
-      "translationHash": "da1e6b7ded371e9407b6931ca3d65d64578741c940162ecb1e8bd300a10368fc"
+      "alignedRevision": "666f62639a04",
+      "alignedPage": "edf6af599276",
+      "translationHash": "7e5aad82e0517f23b204923ec5bee7607c51cc726d4dc4f9d4814b53714688b9"
     }
   ],
   "translationFile": "content/docs/language/expressions.md",
-  "translationHash": "edb26c90f8b3d24ea58b159efe1baebad37840e970f1213fbe2da1e108ccb955"
+  "translationHash": "585eb9fe409b604ab448bde21ce85f28ff722b9d6c66359c601c6fe634b6b74e"
 }

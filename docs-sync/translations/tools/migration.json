@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "status": "unreviewed",
-  "sourceHash": null,
+  "status": "current",
+  "sourceHash": "2fb45d5496c46dc27a6c9c0c256dc4369b43a63bcef6d6b9e28d366debfdbeb2",
   "sourceRevision": "2a18d9fe8799ab82adc4e6d5bf350b6c7c62089d",
   "sources": [
     {
       "path": "Docs/tools/migration.md",
-      "alignedRevision": "",
-      "alignedPage": null,
-      "translationHash": "b1355f3701c6e0747f8e87d788b33dd42b64faccb9b860b49763cd47bb442143"
+      "alignedRevision": "666f62639a04",
+      "alignedPage": "9ba5bfedf909",
+      "translationHash": "2d1e6adb62944cc059db2d8b5a35563a3e5ac5ea8cf06f04578b888ff57050fd"
     }
   ],
   "translationFile": "content/docs/tools/migration.md",
-  "translationHash": "aef41d974d6cf2f5e52d7e290b46e3585688a3d73381572121bbf9eba58c136a"
+  "translationHash": "a6a337a3f73ca571370a1f8428c86a111fa3d6f34ea910c966721236b1c61593"
 }
