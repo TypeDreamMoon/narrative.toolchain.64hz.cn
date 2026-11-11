@@ -3,8 +3,6 @@ title: "DNS9xxx — 工具链"
 description: "DNS9xxx — 工具链"
 ---
 
-# DNS9xxx — 工具链 [#dns9xxx--toolchain]
-
 ## DNS9002 [#dns9002]
 
 无法读取源文件。

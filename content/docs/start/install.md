@@ -3,8 +3,6 @@ title: "安装"
 description: "安装"
 ---
 
-# 安装 [#installation]
-
 1. 把插件放到项目的 `Plugins/DreamNarrative` 目录中（UE 5.8；原版引擎即可）。必需的引擎插件为 EnhancedInput、Niagara 和 GameplayTags。GameplayAbilities 可选，只有 `DreamNarrativeGAS` 会用到它。
 2. 打开项目设置 → Plugins → Dream Narrative：
    - `Source Directory`：`.dna` 文件相对于项目根目录的所在目录；默认 `DNarrative`。

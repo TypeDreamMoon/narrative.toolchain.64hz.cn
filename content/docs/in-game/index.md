@@ -3,8 +3,6 @@ title: "接进游戏"
 description: "接进游戏"
 ---
 
-# 接进游戏 [#game-integration]
-
 ```cpp
 UDreamNarrativeStory* Story = GetGameInstance()->GetSubsystem<UDreamNarrativeStory>();
 Story->LoadAllScripts();                       // All scripts under Asset Directory

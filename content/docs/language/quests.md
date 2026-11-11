@@ -3,8 +3,6 @@ title: "任务"
 description: "任务"
 ---
 
-# 任务 [#quests]
-
 ```dna
 quest 修灯
   title: 修好灯塔

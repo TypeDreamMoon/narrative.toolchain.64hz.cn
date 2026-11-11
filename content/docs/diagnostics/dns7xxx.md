@@ -3,8 +3,6 @@ title: "DNS7xxx — 演出"
 description: "DNS7xxx — 演出"
 ---
 
-# DNS7xxx — 演出 [#dns7xxx--stage]
-
 ## DNS7001 [#dns7001]
 
 切镜头时没有被 mask 盖住。

@@ -3,8 +3,6 @@ title: "本地化"
 description: "本地化"
 ---
 
-# 本地化 [#localization]
-
 对话、选项、任务标题、日志与目标、资料库、角色名、章节标题和演出文字都可本地化。命名空间是 `DNA/<FileName>`；key 是：
 
 | 文字 | key |

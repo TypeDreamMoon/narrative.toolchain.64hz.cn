@@ -3,8 +3,6 @@ title: "DNS2xxx — 解析器"
 description: "DNS2xxx — 解析器"
 ---
 
-# DNS2xxx — 解析器 [#dns2xxx--parser]
-
 ## DNS2001 [#dns2001]
 
 这一行缩进在一个不开启块的行下面。

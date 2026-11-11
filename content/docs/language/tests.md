@@ -3,8 +3,6 @@ title: "test 与 explore"
 description: "test 与 explore"
 ---
 
-# test 与 explore [#tests-and-exploration]
-
 ```dna
 test 零件齐了灯就亮
   given
