@@ -5,7 +5,7 @@ description: "DreamNarrative 指南"
 
 # DreamNarrative 指南 [#dreamnarrative-guide]
 
-在 `.dna` 文本中编写故事、任务、章节、对话和演出。编译器会将它们转换为资产，运行时执行它们，编辑器则呈现文本的投影。本指南涵盖安装、编写故事、游戏集成、测试与暂存。有关设计原理，请参阅[架构决策](/docs/plugin/architecture)；有关每个错误代码，请参阅[诊断参考](/docs/plugin/diagnostics)；完整的原创示例请参阅 [Lighthouse](https://github.com/TypeDreamMoon/DreamNarrative/blob/3e8785130d3032c9e9a924444c364b3bacdf4f76/Examples/Lighthouse/%E7%81%AF%E5%A1%94.dna)。示例中的中文标识符和对话是有意为之：该语言支持 Unicode 名称和多语言叙事文本。
+在 `.dna` 文本中编写故事、任务、章节、对话和演出。编译器会将它们转换为资产，运行时执行它们，编辑器则呈现文本的投影。本指南涵盖安装、编写故事、游戏集成、测试与暂存。有关设计原理，请参阅[架构决策](/docs/plugin/architecture)；有关每个错误代码，请参阅[诊断参考](/docs/plugin/diagnostics)；完整的原创示例请参阅 [Lighthouse](https://github.com/TypeDreamMoon/DreamNarrative/blob/8735d927848e7ba6c5f5022b8489cb970ce96b44/Examples/Lighthouse/%E7%81%AF%E5%A1%94.dna)。示例中的中文标识符和对话是有意为之：该语言支持 Unicode 名称和多语言叙事文本。
 
 ## 阅读指南 [#read-the-guide]
 

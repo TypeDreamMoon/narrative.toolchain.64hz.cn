@@ -1,7 +1,7 @@
 {
   "version": 1,
   "repository": "TypeDreamMoon/DreamNarrative",
-  "revision": "3e8785130d3032c9e9a924444c364b3bacdf4f76",
+  "revision": "8735d927848e7ba6c5f5022b8489cb970ce96b44",
   "workingTree": false,
   "translationSnapshotHash": "9fe38904256218e1380cbc8a4d92405360ad86aa04c2c5844f4b5896430c9a21",
   "pages": {
@@ -573,8 +573,8 @@
         "status": "current",
         "output": "content/docs/start/first-story.md",
         "record": "docs-sync/translations/start/first-story.json",
-        "outputHash": "aa4e00dfac8d249373650f535b1a7054b5b20dbd119f5c610af719ceab089e42",
-        "bodyHash": "a06d0fd6fcecc141132e09fcd2da23d4800a590c6a669fcf6d0914838be2ee2f"
+        "outputHash": "9d2a96bca9c7aaa21e3e33386a93325e3c835cdfd4f67c3f7c86d7e2a2c73689",
+        "bodyHash": "87f6a701b919a5d817a1ee2b76b8a03a13bc9ec8693177bb92860e2e9ca6de24"
       }
     },
     "start/install": {
@@ -771,8 +771,8 @@
         "status": "current",
         "output": "content/docs/plugin/guide.md",
         "record": "docs-sync/translations/plugin/guide.json",
-        "outputHash": "6929a08eb7e485a71b7c269feb109c4368e5987753448da01fdc34d8112c022b",
-        "bodyHash": "4e5eb91f9f0775e2945160066ea9480d4b9b660db013328b8a1091af7a7a4fae"
+        "outputHash": "abdeacf780bab857a566aeb73425f36c953a7e9f4072332eb48fa0031d176bc1",
+        "bodyHash": "caa60f23c04d74bcd70d5068f2ba1581b30e2884d177b935014e0b1f3b77ffa7"
       }
     }
   }
