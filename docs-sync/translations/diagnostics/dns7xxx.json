@@ -6,11 +6,11 @@
   "sources": [
     {
       "path": "Docs/diagnostics/dns7xxx.md",
-      "alignedRevision": "666f62639a04",
+      "alignedRevision": "0e697426f721",
       "alignedPage": "8d5f410b30ba",
-      "translationHash": "a0bcdcdecd30baf26468c262449c86a5074c6ec998341c6f6e3cd2211995af92"
+      "translationHash": "b29cce9b238a8e590ca808bef0bab4f0da0c94810e904a77f1d9586077f1c9de"
     }
   ],
   "translationFile": "content/docs/diagnostics/dns7xxx.md",
-  "translationHash": "b578df85b1a4ec3986169a2f9cfb039fcfd8410104134068b441cef08998f77d"
+  "translationHash": "3989245d5f0c6cfeae94ed0fe0c93c57463653e51795d238cad8630855609ee7"
 }

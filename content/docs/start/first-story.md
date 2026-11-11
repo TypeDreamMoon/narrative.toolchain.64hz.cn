@@ -12,4 +12,4 @@ description: "编写你的第一个故事"
 5. [章节与周目](/docs/language/chapters)
 6. [档案](/docs/language/archives)
 
-完整的原始示例是 [Lighthouse](https://github.com/TypeDreamMoon/DreamNarrative/blob/8735d927848e7ba6c5f5022b8489cb970ce96b44/Examples/Lighthouse/%E7%81%AF%E5%A1%94.dna)。这些示例中的中文标识符和对话是有意为之且有效的；说明文字为英文。
+完整的原始示例是 [Lighthouse](https://github.com/TypeDreamMoon/DreamNarrative/blob/f377b060bf8ab5f605f9d872f7214228594c5863/Examples/Lighthouse/%E7%81%AF%E5%A1%94.dna)。这些示例中的中文标识符和对话是有意为之且有效的；说明文字为英文。
