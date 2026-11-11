@@ -2,7 +2,7 @@
   "version": 1,
   "repository": "TypeDreamMoon/DreamNarrative",
   "branch": "main",
-  "tool": "0.2.0",
+  "tool": "0.3.2",
   "stripLeadingTitle": true,
   "titleSource": "plugin",
   "siteOnly": [],

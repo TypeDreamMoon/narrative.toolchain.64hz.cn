@@ -3,8 +3,6 @@ title: "架构与决策记录"
 description: "架构与决策记录"
 ---
 
-# 架构与决策记录 [#architecture-and-decision-record]
-
 > 项目于 2026-08-31 启动。本文档记录架构决策及其理由。请将新决策追加到下面的历史记录中。草稿与里程碑计划保存在本地 `Plan/` 中，不纳入提交。历史性的提案会明确标注为历史提案；当前的编写说明见[指南](/docs/plugin/guide)。
 
 ## 1. 一个账本，三种视图 [#1-one-ledger-three-views]

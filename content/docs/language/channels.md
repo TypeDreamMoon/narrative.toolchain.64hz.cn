@@ -3,8 +3,6 @@ title: "频道与事件"
 description: "频道与事件"
 ---
 
-# 频道与事件 [#channels-and-events]
-
 ```dna
 channel 电台
   input: free          // Keep player input available

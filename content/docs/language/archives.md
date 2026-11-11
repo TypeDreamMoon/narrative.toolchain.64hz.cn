@@ -3,8 +3,6 @@ title: "档案"
 description: "档案"
 ---
 
-# 档案 [#archives]
-
 ```dna
 archive 守夜日志 profile
   title: 守夜日志

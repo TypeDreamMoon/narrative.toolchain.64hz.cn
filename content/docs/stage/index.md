@@ -3,8 +3,6 @@ title: "演出语言"
 description: "演出语言"
 ---
 
-# 演出语言 [#stage-language]
-
 ```dna
 stage 灯亮
   duration 5.0s

@@ -3,8 +3,6 @@ title: "DNS3xxx — 名字与引用"
 description: "DNS3xxx — 名字与引用"
 ---
 
-# DNS3xxx — 名字与引用 [#dns3xxx--names-and-references]
-
 ## DNS3001 [#dns3001]
 
 引用指向了没有声明的 fact。

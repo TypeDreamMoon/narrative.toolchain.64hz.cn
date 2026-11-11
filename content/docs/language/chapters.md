@@ -3,8 +3,6 @@ title: "章节与周目"
 description: "章节与周目"
 ---
 
-# 章节与周目 [#chapters-and-playthroughs]
-
 ```dna
 chapter 上岛
 chapter 风暴 after 上岛

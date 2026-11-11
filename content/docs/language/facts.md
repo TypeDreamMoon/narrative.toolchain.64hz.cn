@@ -3,8 +3,6 @@ title: "角色与 fact"
 description: "角色与 fact"
 ---
 
-# 角色与 fact [#characters-and-facts]
-
 ```dna
 character 守夜人 player
 character 老周

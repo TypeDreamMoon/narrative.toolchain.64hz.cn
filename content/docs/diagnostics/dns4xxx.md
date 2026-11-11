@@ -3,8 +3,6 @@ title: "DNS4xxx — 表达式与类型"
 description: "DNS4xxx — 表达式与类型"
 ---
 
-# DNS4xxx — 表达式与类型 [#dns4xxx--expressions-and-types]
-
 ## DNS4001 [#dns4001]
 
 类型不匹配。

@@ -3,8 +3,6 @@ title: "DNS1xxx — 词法"
 description: "DNS1xxx — 词法"
 ---
 
-# DNS1xxx — 词法 [#dns1xxx--lexer]
-
 ## DNS1001 [#dns1001]
 
 缩进中包含全角空格（U+3000）。

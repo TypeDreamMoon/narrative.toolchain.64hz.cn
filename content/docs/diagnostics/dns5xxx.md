@@ -3,8 +3,6 @@ title: "DNS5xxx — 图与可达性"
 description: "DNS5xxx — 图与可达性"
 ---
 
-# DNS5xxx — 图与可达性 [#dns5xxx--graph-and-reachability]
-
 ## DNS5008 [#dns5008]
 
 选项组里没有一个“保底”选项。

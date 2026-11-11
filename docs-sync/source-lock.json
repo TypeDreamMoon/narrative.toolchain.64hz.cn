@@ -3,7 +3,7 @@
   "repository": "TypeDreamMoon/DreamNarrative",
   "revision": "8735d927848e7ba6c5f5022b8489cb970ce96b44",
   "workingTree": false,
-  "translationSnapshotHash": "9fe38904256218e1380cbc8a4d92405360ad86aa04c2c5844f4b5896430c9a21",
+  "translationSnapshotHash": "8797627687f8c87ba634b4e76a8ec92ef275a5546a46031f149043e0aca5735e",
   "pages": {
     "changelog/index": {
       "hash": "a2eeb2b0c1f4d67db5dc7f8fe6ecea30c82b76b8889bad0caab70f304b4fc774",
@@ -45,8 +45,8 @@
         "status": "current",
         "output": "content/docs/diagnostics/dns1xxx.md",
         "record": "docs-sync/translations/diagnostics/dns1xxx.json",
-        "outputHash": "1a85d26fdf3ed714130e8a031f03e1d5856475c8376f35941b9c22e651ec9b93",
-        "bodyHash": "ad9d40197fb376b35784cc5f5d320fe31e1c8323c56efaf4b6ce49f8d28b081c"
+        "outputHash": "85092ef769673d5b3e2be2b1662a5c1427c350fca5a9fdf6d1977fb5fec144a6",
+        "bodyHash": "da4d4f66d1e795f1f29ad543bd08505cca9f4e9eded84737fe0950f7880f44e7"
       }
     },
     "diagnostics/dns2xxx": {
@@ -67,8 +67,8 @@
         "status": "current",
         "output": "content/docs/diagnostics/dns2xxx.md",
         "record": "docs-sync/translations/diagnostics/dns2xxx.json",
-        "outputHash": "666f01b118350355e0fedf88b2a02acb9eac75a33decb1a3c918670babee87c4",
-        "bodyHash": "e34c8617e99fd231e43ce3c82255d0084803e829a1f6d1bfd96434ce94617eb8"
+        "outputHash": "7e0853cd39f7697a283c03a337fb4d2985538aaaa1f5073ab15e3a4fde6b02e4",
+        "bodyHash": "34f5c90a849ab4501be36a880d8dba211bb2fab8f3b7ebe591cf5fd3850c0012"
       }
     },
     "diagnostics/dns3xxx": {
@@ -89,8 +89,8 @@
         "status": "current",
         "output": "content/docs/diagnostics/dns3xxx.md",
         "record": "docs-sync/translations/diagnostics/dns3xxx.json",
-        "outputHash": "e39b8bbc965277aab4b91d86baaca1d07f29d74f098433327961f5844895328d",
-        "bodyHash": "aef77e3139e5ff4a67e94554ef86e8318a6813964bb07400d16bea965cd17c86"
+        "outputHash": "109dc59ac871545bbea91481bdc237e0e6373c2beb9fa45024cddf9d409918ae",
+        "bodyHash": "221a508de01ff0a39f343dabe935c2a0e2f5c8d81dc4a0cfc0e02b9961ee4192"
       }
     },
     "diagnostics/dns4xxx": {
@@ -111,8 +111,8 @@
         "status": "current",
         "output": "content/docs/diagnostics/dns4xxx.md",
         "record": "docs-sync/translations/diagnostics/dns4xxx.json",
-        "outputHash": "4610f92a9bbf51fec64a671c919c19834979131d93e01a0416ff165d8c39944e",
-        "bodyHash": "dbeeeeeb5f73c02da3f88525bec90d5bef9666aea4f394cf3605df6985eb3492"
+        "outputHash": "0ef74ad3d4eed670c8cbe511ae42e9975d17cd3d7d35bd5ec93d663e2b8cf9a0",
+        "bodyHash": "05952af09fff7a0d3913fa7e801f6f6a7e684ed923baed6ecb8550d7c97d0535"
       }
     },
     "diagnostics/dns5xxx": {
@@ -133,8 +133,8 @@
         "status": "current",
         "output": "content/docs/diagnostics/dns5xxx.md",
         "record": "docs-sync/translations/diagnostics/dns5xxx.json",
-        "outputHash": "d9f2e3aa728a503ff5d0ef12770080235f5ff65866e3506bf1c65f9e843f0268",
-        "bodyHash": "4c15c949c1f54fb9d1be4aec8d0829c27c84ed7057163ee9d5b6a72af4b65285"
+        "outputHash": "c1f8d77c8db2c300cb28732c85f921b9eacf075f932356f8cc7d1bfc871c77ce",
+        "bodyHash": "3ed9fc74228a6ec90018085ff8c7405fa4d4e60d4ea0d52db9c0994561539e63"
       }
     },
     "diagnostics/dns7xxx": {
@@ -155,8 +155,8 @@
         "status": "current",
         "output": "content/docs/diagnostics/dns7xxx.md",
         "record": "docs-sync/translations/diagnostics/dns7xxx.json",
-        "outputHash": "bda41df264f41a0e216770b6573a7ec702440f49dfb1df83ccadcc5ed56a440c",
-        "bodyHash": "7cbdab39b5e2881b946a113a9b474639a743e0dfac023a76b5d89d81f50f5ea6"
+        "outputHash": "b578df85b1a4ec3986169a2f9cfb039fcfd8410104134068b441cef08998f77d",
+        "bodyHash": "4b884e4d9f46eab2821bdfbed2464af6f6588e83dadc13a0d32e11f7404fdd0c"
       }
     },
     "diagnostics/dns8xxx": {
@@ -177,8 +177,8 @@
         "status": "current",
         "output": "content/docs/diagnostics/dns8xxx.md",
         "record": "docs-sync/translations/diagnostics/dns8xxx.json",
-        "outputHash": "21d264d30cd7df10790082770c5295eae6838291dd18b76307695bb70c51fab7",
-        "bodyHash": "b61aff2ea939b36f33e5b7cd86dcb3f3b7236a77a995dfa65fc82cf24e1a0473"
+        "outputHash": "010a95c27f96547a9b7eafda59e3f90ac5e9bd2cbbd7570d177c705934dded99",
+        "bodyHash": "fa29d09ce281dd36f1cd842b3e3823146cdd6bb0cf90f9292aec3096c5da7cc1"
       }
     },
     "diagnostics/dns9xxx": {
@@ -199,8 +199,8 @@
         "status": "current",
         "output": "content/docs/diagnostics/dns9xxx.md",
         "record": "docs-sync/translations/diagnostics/dns9xxx.json",
-        "outputHash": "32a521b2a99e0f1538ffd33efc2b569eb537187bd68c3ace52852b0681eb527d",
-        "bodyHash": "51c19593484734fb8c850fb421d4c00f753cb090841915dfca22bdd26675f290"
+        "outputHash": "d77692a4470c7be11d6aa97b661e5c7550159d837b05865917d6d17d9a3e8284",
+        "bodyHash": "8a30b1122bbdc7a754b1d0f223f081a813139d431ee908f478c7d750e66e104b"
       }
     },
     "diagnostics/index": {
@@ -221,8 +221,8 @@
         "status": "current",
         "output": "content/docs/diagnostics/index.md",
         "record": "docs-sync/translations/diagnostics/index.json",
-        "outputHash": "56ce936089afcf67bad7aeff2c69583cd3bb5b179681bf2b52dc2c6ffcbf48f4",
-        "bodyHash": "57eaa822325445f7bbaf9e60e14101212bb1fea7191e43fce0e1a77bd017ab55"
+        "outputHash": "5223f0988866a961d9f7939cc5db63d45e34dd90bd3513044144ee69166b0926",
+        "bodyHash": "95742f84729c30503069d2a287be59344231df639fc5172ef3b0a7b2fa68edb9"
       }
     },
     "index": {
@@ -265,8 +265,8 @@
         "status": "current",
         "output": "content/docs/language/archives.md",
         "record": "docs-sync/translations/language/archives.json",
-        "outputHash": "9e845811eed9e74eec5d4decbfba8e42f8a02fdbb848d9a7543a17271dc60037",
-        "bodyHash": "d5484cedee7236a476781ab8829af73e03b54273e97489224a9fea9dd234f8c8"
+        "outputHash": "339fb45cac733e1ff7e7fcc30a0183ca2663d6e755b29413405678e22dfdb3ec",
+        "bodyHash": "b815ea7fde9c84d1ff1057dd2080269645a52888d09e971023ddd58cfcf2370a"
       }
     },
     "language/channels": {
@@ -287,8 +287,8 @@
         "status": "current",
         "output": "content/docs/language/channels.md",
         "record": "docs-sync/translations/language/channels.json",
-        "outputHash": "c5816282df65b6065d8344a54d0bd2289c03c51ef117e9a95711301d4eeb296a",
-        "bodyHash": "4218520230efdc2946412b67d0c277caa317f9e740861eabbc4eab8d402655d5"
+        "outputHash": "1340fd7d8000e2a24fb1df2480c8a61cdfe04f6f13ae1193763943ac11faf60a",
+        "bodyHash": "97cfc604cc14505ed2093c8744f65982fbf55d2f9558b18e8400ccac824acaef"
       }
     },
     "language/chapters": {
@@ -309,8 +309,8 @@
         "status": "current",
         "output": "content/docs/language/chapters.md",
         "record": "docs-sync/translations/language/chapters.json",
-        "outputHash": "497d8e62d12a6b44fbc4de6f2ea21e1f331e46e08206522fd6ff52385accc81f",
-        "bodyHash": "fb84e8e60736dffe9bd9cdb2ac9e83da031e9e609c72d472abb825ebe5068f93"
+        "outputHash": "74f2aa96b8b4d1969bd35637b19e91c9745215c490230f15971ba2d30aa5f7c4",
+        "bodyHash": "eb6437a476aa71e11c256a59c39a7350ec7c1f6e826d71c7188d1c176fe8d478"
       }
     },
     "language/dialogue": {
@@ -331,8 +331,8 @@
         "status": "current",
         "output": "content/docs/language/dialogue.md",
         "record": "docs-sync/translations/language/dialogue.json",
-        "outputHash": "792f4a1646b51061c12b391e69f87f69d100a8ecc7e363a4403f27182e3e7770",
-        "bodyHash": "fdd4298865799580092cf1f5f40426aa838744dc5d631e9fbc10a9c43206a9f1"
+        "outputHash": "eb05e3850745a4ca67eae12dd5f57e16f3156ddfffd0f6ed0b0b8915647f7531",
+        "bodyHash": "4ee233f559ff3080d1acfedfab8157a7bf203582f356eafaf598a9a314d5d410"
       }
     },
     "language/expressions": {
@@ -375,8 +375,8 @@
         "status": "current",
         "output": "content/docs/language/facts.md",
         "record": "docs-sync/translations/language/facts.json",
-        "outputHash": "139ed888d4a6bd5b7400a0f311bafb03b214e10a79ff9228f48d8c448c0b9820",
-        "bodyHash": "762d4091adfff2df6ba3ce105df9001102c89dd5e493b183f9926acdedaef8d4"
+        "outputHash": "4a5f051b5dbcdb027e7b2b092ed916e8d82a242bc42e2155378cb420f7afcbcd",
+        "bodyHash": "0ebaad1346e5a0df1e8c1bf012b7416a57676a1f0fb878666847516117f56568"
       }
     },
     "language/index": {
@@ -419,8 +419,8 @@
         "status": "current",
         "output": "content/docs/language/quests.md",
         "record": "docs-sync/translations/language/quests.json",
-        "outputHash": "1a49bcdd98c4f2a6febe44065efa3ddd419212e1041b9202fee40cdd51344e44",
-        "bodyHash": "e072ddfdbab9e7b01e0b0a871f8aa3339926a47620dcded22bfdbeaeefc798a1"
+        "outputHash": "153383849bf9eaa5877d1f9cbbdd79492c09284626fe20242604540a53281eca",
+        "bodyHash": "0c1c68609458683d62280cedd176ad0d9b830e8da2a1081d52828c8023b766f1"
       }
     },
     "language/tests": {
@@ -441,8 +441,8 @@
         "status": "current",
         "output": "content/docs/language/tests.md",
         "record": "docs-sync/translations/language/tests.json",
-        "outputHash": "9d0baabfb0a4a461c6d8a6f76d32d6cd517b8cd2b1a2e4d6463aa5ea975706ed",
-        "bodyHash": "2f54a10a7d110f2fb98e3bb1f4b8666fa005d2793e3e20e4e27371932aeef397"
+        "outputHash": "7ce48a6ea93e5b5f03da61ada0bd54c51cfb3f33277338d8bc8f6c6d9820c574",
+        "bodyHash": "ab5b4729343744b2e5ff9161553f92a48470f1ac677293bed61a4ccfd08b17a2"
       }
     },
     "in-game/gas": {
@@ -485,8 +485,8 @@
         "status": "current",
         "output": "content/docs/in-game/index.md",
         "record": "docs-sync/translations/in-game/index.json",
-        "outputHash": "92f44cc77630cb2c94c91ca001e2a109df7dfeaed7e30c02ade7739407cc0479",
-        "bodyHash": "8cf6290b111abab50c876768f0ee03e676d0edd97078b449c598cabaca39140d"
+        "outputHash": "86774b124ce0fb3ec53eb5380b639508b8378fa32d29ca745613b97c5e397474",
+        "bodyHash": "8cef4e9e0c6ceff0b935c2a0f9942d2a2c1b9640a8797a2251a14e6c22cdb8fd"
       }
     },
     "stage/editing": {
@@ -529,8 +529,8 @@
         "status": "current",
         "output": "content/docs/stage/index.md",
         "record": "docs-sync/translations/stage/index.json",
-        "outputHash": "9994b7805e620a4ebdf3aa6c384975e065a37c659fc05a815f2ed58bf8efe823",
-        "bodyHash": "c2b3dabb84fdc41fead49031765d0de297edb7bedfffa9c1c49a370206a16695"
+        "outputHash": "57803f458d370e8a7d07efab6cadfcfec2db39924c6e5605658eb60712e37573",
+        "bodyHash": "bbf00758b576b2d8b794732e4204260bfcea358d23c3c300063545674be6d66f"
       }
     },
     "stage/in-game": {
@@ -573,8 +573,8 @@
         "status": "current",
         "output": "content/docs/start/first-story.md",
         "record": "docs-sync/translations/start/first-story.json",
-        "outputHash": "9d2a96bca9c7aaa21e3e33386a93325e3c835cdfd4f67c3f7c86d7e2a2c73689",
-        "bodyHash": "87f6a701b919a5d817a1ee2b76b8a03a13bc9ec8693177bb92860e2e9ca6de24"
+        "outputHash": "cc647a867a258994949ca6e2cb4cae1abe5422dcd6b9c41d6e7d26a263927529",
+        "bodyHash": "ca35c0ca655f9f8694f1cfb6f500e5765c90c8dcb9da2f7df7c03e9673f5d873"
       }
     },
     "start/install": {
@@ -595,8 +595,8 @@
         "status": "current",
         "output": "content/docs/start/install.md",
         "record": "docs-sync/translations/start/install.json",
-        "outputHash": "bbcea31cc8be809bca881824ce37f67874619f64bcfc03ab6021a5b2001ebd0c",
-        "bodyHash": "7a85adb68b35ff24f8c9307a82d20891cdbadf0a5f9ebe26e742067807065a41"
+        "outputHash": "dcf47ed90ecb82cbc0f334a97d0c3a2adf6b3e678068208e9bb86fbbc2db4c70",
+        "bodyHash": "7cad0a0889f92af112c70f6c4fa06d803531851175ab850904875aed26714420"
       }
     },
     "tools/dnc": {
@@ -639,8 +639,8 @@
         "status": "current",
         "output": "content/docs/tools/editor.md",
         "record": "docs-sync/translations/tools/editor.json",
-        "outputHash": "8a0a64eb40421378988dc389a0e2166e4ba7f1a87e9c09848408788d8567ca6e",
-        "bodyHash": "550370e1163310a497de0585009f3554e0ef3fc6f177d9da756384362d1ec9fb"
+        "outputHash": "2e446e9118edaca8a3885ca5e8467905444d2df3cf67f86c5d4ddba43921d273",
+        "bodyHash": "9a735baa710ab3473e66c57920d46c6b4168ba9c2aaaa6aa7d296f94d75d1713"
       }
     },
     "tools/localization": {
@@ -661,8 +661,8 @@
         "status": "current",
         "output": "content/docs/tools/localization.md",
         "record": "docs-sync/translations/tools/localization.json",
-        "outputHash": "779aac190af0d20e87d7dd470f98b00255446f1e44e2774b5e4da7e529cbc8c1",
-        "bodyHash": "5b1fd78787ad2501b3d948fe5906bacc3994b917114ac96219e614b6bac766c9"
+        "outputHash": "0ccbc6bd1e3e4a343c1f1e6b5962fb01495890400ed35ae54719d845c0f00975",
+        "bodyHash": "ca0d4ef4726ab35f34e49e8c524f57458eb8545aad7e6f1038673a64851a71bc"
       }
     },
     "tools/migration": {
@@ -705,8 +705,8 @@
         "status": "current",
         "output": "content/docs/tools/vscode.md",
         "record": "docs-sync/translations/tools/vscode.json",
-        "outputHash": "f2bb88b7d738a2d6836a5baf5c0e8e80ed65cdc4a8c51d83a4468aeb7a067b02",
-        "bodyHash": "233f970b8df1ba19b08f7f5ef7e7adfb5ee7ee23f1f9853d90c705fa1769a562"
+        "outputHash": "10f310e44a8d2f2d6b69350e44b035575e383f5dfc43e595fcfa66e5d392d2be",
+        "bodyHash": "f6167cbccef44ae0d0d4e2eefed0df3e691ce6ec606a1f59fd1e0223507a6fcb"
       }
     },
     "plugin/architecture": {
@@ -727,8 +727,8 @@
         "status": "current",
         "output": "content/docs/plugin/architecture.md",
         "record": "docs-sync/translations/plugin/architecture.json",
-        "outputHash": "ed71a08e406ee4958660516cd348a0d42ea4b5ec12c7cb57b149681d10aa6975",
-        "bodyHash": "a544842f846dfb51d21eb68d210f69232686982eac0a06c4986951dd7a692bcd"
+        "outputHash": "4a5d202ecc8a3f3aef982b00669f2b24a68517833ac55208e1ec0433f6bb3b9d",
+        "bodyHash": "9042a2c2afbceceada85719ee941b9bc337488201927b2ee4532d31e4779f95d"
       }
     },
     "plugin/diagnostics": {
@@ -749,8 +749,8 @@
         "status": "current",
         "output": "content/docs/plugin/diagnostics.md",
         "record": "docs-sync/translations/plugin/diagnostics.json",
-        "outputHash": "c7d7d28837cc8845e7664218f4e8f6ad904c0030c582fe97070369c22f6455c3",
-        "bodyHash": "9eaa05ad5a525c1144a682436e10f36f3600986a14bd0b5af42d34243351c2dc"
+        "outputHash": "4f5e84c5abb098adfb2c3db4d6fabc598e81510e06f2e4dc8d5bb6a9524d0265",
+        "bodyHash": "276cfefb956d539057172db6b865536e805d7b9b999833a1e9cb2f88a8e83031"
       }
     },
     "plugin/guide": {
@@ -771,8 +771,8 @@
         "status": "current",
         "output": "content/docs/plugin/guide.md",
         "record": "docs-sync/translations/plugin/guide.json",
-        "outputHash": "abdeacf780bab857a566aeb73425f36c953a7e9f4072332eb48fa0031d176bc1",
-        "bodyHash": "caa60f23c04d74bcd70d5068f2ba1581b30e2884d177b935014e0b1f3b77ffa7"
+        "outputHash": "995032f270305f9a89db1b2a707da518b48cc4a3fe36d60ff921d04ab75cf35f",
+        "bodyHash": "6cffed960641c4f321f1b7c1fd733146e04f8500b4758e5ae4328b9d08edd383"
       }
     }
   }
